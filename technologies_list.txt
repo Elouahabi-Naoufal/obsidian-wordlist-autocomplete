@@ -1,0 +1,1205 @@
+Internet backbone
+DNS
+ISPs
+Fiber optics
+Satellites
+Data centers
+AWS
+Azure
+GCP
+Oracle Cloud
+Edge computing
+Cloudflare Workers
+5G
+6G
+IoT
+Mesh networks
+Smartphones
+Tablets
+Wearables
+AR headsets
+VR headsets
+XR
+Brain-computer interface
+Human-machine interface
+Linux
+Windows
+macOS
+Android
+iOS
+HTML5
+CSS
+JavaScript
+TypeScript
+WebAssembly
+APIs
+REST
+GraphQL
+gRPC
+FastAPI
+Node.js
+nginx
+Apache HTTP Server
+Envoy
+Service Mesh
+Kubernetes
+Docker
+Containerd
+CRI-O
+Docker Compose
+Helm
+Kustomize
+Terraform
+Pulumi
+CloudFormation
+Ansible
+Puppet
+Chef
+Git
+GitHub Actions
+GitLab CI
+Jenkins
+Tekton
+Argo CD
+Argo Workflows
+CI/CD
+Prometheus
+Grafana
+Jaeger
+OpenTelemetry
+ELK Stack
+EFK Stack
+Splunk
+Observability
+Logging
+Tracing
+Monitoring
+SRE
+Infrastructure as Code
+IaC
+Immutable infrastructure
+VMware
+Proxmox
+OpenStack
+VPC
+Subnet
+Load balancer
+CDN
+Object storage
+S3
+MinIO
+Ceph
+Block storage
+File storage
+PostgreSQL
+MySQL
+MariaDB
+SQLite
+MongoDB
+Cassandra
+Redis
+Elasticsearch
+DynamoDB
+CouchDB
+Couchbase
+AmazonDB
+Aerospike
+OrientDB
+ArangoDB
+InfluxDB
+TimescaleDB
+Riak
+HBase
+Accumulo
+Amazon DocumentDB
+Azure Cosmos DB
+Google Firestore
+Google Bigtable
+Column-family databases
+Document databases
+Key-value stores
+Graph databases
+Time-series databases
+Multi-model databases
+Eventual consistency
+CAP theorem
+BASE properties
+ACID properties
+Sharding strategies
+Replication strategies
+Consistent hashing
+Vector clocks
+Merkle trees
+Gossip protocol
+Quorum consensus
+Read repair
+Anti-entropy
+Tombstones
+Compaction
+Bloom filters
+LSM trees
+B+ trees
+MapReduce
+Apache Hadoop
+HDFS
+YARN
+Hive
+Pig
+Sqoop
+Flume
+Oozie
+Zookeeper
+Etcd
+Consul
+NoSQL data modeling
+Denormalization
+Embedding vs referencing
+Schema-less design
+Polyglot persistence
+Data partitioning
+Horizontal scaling
+Vertical scaling
+Read replicas
+Write-heavy workloads
+Read-heavy workloads
+Caching strategies
+Memcached
+Hazelcast
+Apache Ignite
+Redis Cluster
+Redis Sentinel
+MongoDB Atlas
+MongoDB Compass
+MongoDB Realm
+Cassandra Query Language
+CQL
+DataStax
+ScyllaDB
+Elasticsearch Query DSL
+Kibana
+Logstash
+Beats
+Elastic Cloud
+OpenSearch
+Solr
+Lucene
+Full-text search
+Inverted index
+Analyzers
+Tokenizers
+Aggregations
+Faceted search
+ClickHouse
+Snowflake
+BigQuery
+Redshift
+Data lake
+Delta Lake
+Parquet
+Avro
+ORC
+Tfrecord
+Kafka
+RabbitMQ
+Apache Pulsar
+Message queue
+Stream processing
+Apache Spark
+Flink
+Dask
+Apache Beam
+Airflow
+Dagster
+Prefect
+Feast
+Feature store
+MLflow
+WandB
+Neptune
+BentoML
+Seldon
+Katib
+Deepspeed
+Horovod
+Distributed training
+PyTorch
+TensorFlow
+JAX
+Scikit-learn
+XGBoost
+LightGBM
+CatBoost
+Natural language processing
+Computer vision
+Reinforcement learning
+Large language models
+Multimodal models
+RAG
+Embedding
+Vector database
+Pinecone
+Milvus
+FAISS
+Model serving
+On-prem GPU
+GPU
+TPU
+CUDA
+cuDNN
+OpenCL
+NVLink
+Slurm
+KubeVirt
+Serverless
+AWS Lambda
+Azure Functions
+Google Cloud Functions
+Serverless containers
+Edge AI
+Federated learning
+Differential privacy
+Data governance
+Data catalog
+Amundsen
+Apache Atlas
+Great Expectations
+Data contracts
+GDPR
+CCPA
+Encryption at rest
+Encryption in transit
+AWS KMS
+HashiCorp Vault
+Secrets manager
+RBAC
+ABAC
+Zero trust
+TLS 1.3
+IPsec
+SSH
+OAuth2
+OIDC
+SAML
+mTLS
+Kerberos
+TLS
+PKI
+Public key infrastructure
+Firewall
+Next-generation firewall
+Palo Alto Networks
+Fortinet
+Checkpoint
+IDS
+IPS
+Snort
+Suricata
+Netflow
+SFLOW
+SNMP
+Wireshark
+Tcpdump
+Iptables
+nftables
+Iproute2
+BGP
+OSPF
+RIP
+Routing protocols
+SDN
+OpenFlow
+Calico
+Cilium
+eBPF
+P4
+Programmable switch
+Network function virtualization
+Service mesh (Istio, Linkerd)
+Load balancers (HAProxy, Nginx, Envoy)
+VPN
+WireGuard
+OpenVPN
+SIEM
+Elastic SIEM
+Splunk Enterprise Security
+Endpoint Detection and Response
+CrowdStrike
+SentinelOne
+Vulnerability scanner
+Nessus
+OpenVAS
+Metasploit
+Burp Suite
+OWASP
+Supply chain security
+Sigstore
+Cosign
+Trivy
+Clair
+Image scanning
+Policy as code
+OPA
+Rego
+Falco
+Runtime security
+Incident response
+Threat hunting
+Red team
+Blue team
+Purple team
+Penetration testing
+Social engineering
+Digital forensics
+Blockchain
+Ethereum
+Solidity
+Smart contracts
+DeFi
+CBDC
+Stablecoin
+Bitcoin
+Lightning Network
+Consensus algorithms
+Proof of Work
+Proof of Stake
+Distributed ledger
+Cryptography
+Post-quantum cryptography
+Quantum computing
+Superconducting qubits
+Trapped ions
+Topological qubits
+Quantum annealing
+Quantum communication
+Quantum key distribution
+Neural networks
+Transformers
+Attention mechanism
+Generative models
+GANs
+Autoencoders
+Neuroevolution
+Neuromorphic chips
+Brain-inspired computing
+BCI (Neuralink)
+Neuroscience interfaces
+EEG
+fMRI
+Medical imaging
+MRI
+CT scan
+PET scan
+Ultrasound
+Surgical robot
+Da Vinci
+Mako
+Telemedicine
+EHR
+FHIR
+HL7
+Medical devices
+Regulatory compliance (FDA, EMA)
+PCR
+qPCR
+Sequencing
+Next-generation sequencing
+Illumina
+Oxford Nanopore
+CRISPR
+Gene editing
+Gene therapy
+mRNA vaccines
+Biopharma
+Synthetic biology
+Bioinformatics
+Lab automation
+ELISA
+Flow cytometry
+Proteomics
+Metabolomics
+Single-cell sequencing
+Biomedical sensors
+Prosthetics
+Bionics
+Exoskeleton
+Hydrogen fuel cell
+Battery (Li-ion)
+Solid-state battery
+Supercapacitor
+Energy storage
+Solar PV
+Concentrated solar power
+Wind turbine
+Offshore wind
+Hydroelectric
+Geothermal
+Tidal energy
+Smart grid
+Microgrid
+Grid storage
+SCADA
+Power electronics
+EV
+Autonomous vehicle
+ADAS
+LIDAR
+RADAR
+Cameras for machine vision
+V2X
+Maglev
+Hyperloop
+eVTOL
+Aircraft avionics
+Jet engine
+Satellite bus
+CubeSat
+GPS
+GNSS
+Starlink
+SpaceX Falcon
+SpaceX Starship
+Rocket engines
+Aerospace materials
+Composite materials
+Carbon fiber
+Additive manufacturing
+3D printing
+FDM
+SLA
+SLS
+Metal 3D printing
+CNC machining
+CAD
+CAM
+SolidWorks
+AutoCAD
+Siemens NX
+Industrial robots
+ABB
+KUKA
+FANUC
+ROS
+ROS2
+DDS
+PLC
+Siemens PLC
+Beckhoff
+Allen-Bradley
+Modbus
+Profinet
+Ethernet/IP
+CANopen
+Fieldbus
+EtherCAT
+Time-Sensitive Networking
+Real-time Linux
+RTOS
+FreeRTOS
+Zephyr
+Industrial IoT
+SCADA systems
+Ignition
+Wonderware
+Siemens WinCC
+Predictive maintenance
+Digital twin
+Simulation (Gazebo, Webots)
+OpenCV
+MoveIt
+Computer vision toolkits
+Motion planning
+Control theory
+PID controllers
+Safety standards ISO 13849
+IEC 61508
+Environmental monitoring
+Climate models
+Remote sensing
+Copernicus
+Sentinel satellites
+Earth observation
+Carbon capture
+Direct air capture
+Desalination
+Water treatment
+Waste recycling
+Sustainable architecture
+Green building standards
+LEED
+Smart city platforms
+Civic tech
+e-Government
+Digital identity
+Biometric passport
+Facial recognition
+Surveillance systems
+OSINT
+SIGINT
+Social media analytics
+Content moderation
+Deepfake
+Deepfake detection
+Generative art
+AI-generated music
+Procedural generation
+Game engines
+Unreal Engine
+Unity
+Realtime rendering
+Ray tracing
+Physically based rendering
+Shaders
+Graphics APIs (Vulkan, OpenGL, DirectX)
+Computer graphics
+Augmented reality SDKs
+ARKit
+ARCore
+Educational technology
+Adaptive learning platforms
+Learning management systems
+MOOCs
+Virtual classrooms
+Gamification
+Knowledge graphs
+SPARQL
+RDF
+Semantic web
+Ontology
+Graph databases
+Neo4j
+JanusGraph
+Knowledge representation
+Search engines
+Elasticsearch
+Information retrieval
+Recommender systems
+Collaborative filtering
+Content-based filtering
+Privacy engineering
+Data anonymization
+Pseudonymization
+GDPR compliance tools
+Ethical AI frameworks
+Explainable AI
+Model interpretability (SHAP, LIME)
+Automation frameworks
+Robotic process automation
+UiPath
+Automation Anywhere
+Blue Prism
+Supply chain tech
+SCM systems
+WMS
+ERP
+SAP
+Oracle ERP
+Manufacturing execution systems
+Lean manufacturing tools
+Six Sigma
+Quality management systems
+ISO standards
+Legal tech
+RegTech
+FinTech platforms
+Payment gateways
+Stripe
+PayPal
+Square
+Digital wallets
+Apple Pay
+Google Pay
+Cryptography libraries
+OpenSSL
+libsodium
+NaCl
+Hardware security module
+TPM
+Secure Boot
+Trusted Execution Environment
+Intel SGX
+ARM TrustZone
+Privacy-preserving computation
+Secure multi-party computation
+Homomorphic encryption
+Edge robotics
+Collaborative robots
+Swarm robotics
+Nanotechnology
+Graphene
+Advanced materials
+Metamaterials
+Space habitats
+Asteroid mining
+Closed-loop life support
+Autonomous systems
+AI orchestration
+Explainable agents
+Ethical governance
+AI policy
+AI safety research
+AGI research
+Neural architecture search
+Automated machine learning
+Hyperparameter tuning
+AutoML
+Continuous training
+Feature engineering
+Feature stores (Feast)
+Model monitoring
+Drift detection
+Model governance
+Data lineage
+Data mesh
+Data fabric
+Observability pipelines
+Telemetry
+Cost optimization
+FinOps
+Green computing
+Sustainable data centers
+Liquid cooling
+Hardware accelerators
+TPU
+FPGA
+ASIC
+Application security
+Static analysis
+Dynamic analysis
+Fuzzing
+AWS Shield
+CloudFront
+Rate limiting
+CAPTCHA
+Bot management
+Session management
+Identity and access management
+IAM
+Least privilege
+Role-based access control
+Policy enforcement
+Compliance automation
+Audit trails
+Version control
+Semantic versioning
+Release management
+Blue-green deployment
+Canary deployment
+Feature flags
+Launchdarkly
+Chaos engineering
+Chaos Monkey
+Fault injection
+Resilience engineering
+Business continuity
+Disaster recovery
+Backup solutions
+Ransomware protection
+Data backups
+Archiving
+Cold storage
+Glacier
+Container orchestration alternatives
+Nomad
+Rancher
+Platform engineering
+Developer experience tools
+IDE (VS Code, JetBrains)
+Debuggers
+Profilers
+Performance tuning
+Load testing
+JMeter
+Locust
+Artillery
+Capacity planning
+Scalability patterns
+Sharding
+Replication
+Event sourcing
+CQRS
+Microservices
+Monolith
+Domain-driven design
+APIs management
+API gateway
+Kong
+Apigee
+Auth0
+Okta
+3d modeling
+accuracy
+acknowledgements
+adapter
+admin
+aiops
+alerting
+algorithm
+ansible
+apache
+api
+api documentation
+api endpoint
+api gateway
+api key
+approve
+ar
+architecture
+argument
+artifact
+artifact repository
+artificial intelligence
+async
+augmentation
+authentication
+authorization
+automation
+availability
+aws
+azure
+backend
+backup
+badge
+balancer
+bash
+benchmark
+big data
+bigquery
+bios
+biotech
+bitbucket
+black
+blockchain
+boilerplate
+bootloader
+branch
+build
+build automation
+build status
+bus
+business intelligence
+c#
+c++
+cache
+cache invalidation
+cdn
+changelog
+checkpoint
+ci runner
+ci/cd
+class
+cli
+client
+clone
+cloud architecture
+cloud computing
+cluster
+coding standards
+colab
+command
+comment
+commit
+commit hash
+commit message
+compile
+compiler
+complexity
+compose
+composition
+computer graphics
+computer vision
+conditional
+config file
+configuration
+configuration guide
+confusion matrix
+consistency
+console
+constant
+contact
+containers
+continuous deployment
+continuous integration
+contributing
+contributors
+controller
+cookie
+cors
+cpu
+cqrs
+credits
+cron
+csrf
+css
+csv
+cursor
+cybersecurity
+dashboard
+data analysis
+data engineering
+data lake
+data preprocessing
+data science
+data structure
+data visualization
+data warehouse
+database
+dataset
+dataset split
+debug
+debugger
+deep learning
+dependencies
+dependency injection
+dependency management
+deploy
+deployment
+design
+design pattern
+device
+devops
+dhcp
+diff
+directory
+dns
+dns resolver
+docker
+dockerfile
+documentation
+downgrade
+driver
+edge computing
+edtech
+elasticsearch
+embedded systems
+encryption
+end-to-end
+endpoint
+env
+environment
+environment variables
+eslint
+ethical hacking
+etl
+evaluation
+event
+event loop
+event sourcing
+examples
+execute
+executor
+expression
+extension
+f1-score
+faq
+fault tolerance
+feature engineering
+features
+feedback
+fintech
+firewall
+firewalls
+firmware
+flag
+flake8
+folder
+formatter
+framework
+frontend
+fsm
+function
+game development
+gateway
+getting started
+github
+gitlab
+go
+google cloud
+gpt
+grafana
+graphql
+greentech
+gui
+hadoop
+handler
+hashing
+healthtech
+hotfix
+html
+http
+huggingface
+hyperparameters
+hypervisor
+ide
+image
+incident response
+index
+inference
+inheritance
+installation
+integration
+integration test
+interface
+internet of things
+interpreter
+interrupt
+introduction
+io
+issues
+java
+javascript
+jenkins
+job
+join
+js
+json
+jupyter
+jwt
+kafka
+kernel
+key
+kotlin
+kubernetes
+lakehouse
+latency
+library
+license
+linker
+linting
+linux
+llm
+load balancer
+load balancing
+load testing
+logging
+loop
+loss
+machine learning
+macos
+markdown
+martech
+memory
+merge
+message
+message broker
+metaverse
+method
+metrics
+microservices
+middleware
+migration
+mlops
+mobile development
+mocking
+model saving
+module
+mongodb
+monitoring
+mqtt
+multi-threading
+mysql
+namespace
+nanotech
+nat
+natural language processing
+network protocols
+networking
+neural networks
+nginx
+node
+normalization
+nosql
+notebook
+npm
+numpy
+oauth
+object
+observability
+open source
+openai
+openapi
+operating systems
+operator
+optimization
+option
+overview
+package
+package manager
+pandas
+panel
+parallel
+parameters
+patch
+path
+penetration testing
+pep8
+performance
+permission
+php
+pip
+pipe
+pipeline
+plugin
+pod
+policy
+polymorphism
+port
+postgresql
+powershell
+precision
+prettier
+procedure
+process
+production
+profiler
+profiling
+project description
+project structure
+prometheus
+prompt
+proxy
+pubsub
+pull
+pull request
+push
+python
+pytorch
+quantum computing
+query
+queue
+quickstart
+quota
+rabbitmq
+rate limiting
+readme
+rebase
+recall
+recovery
+redis
+redshift
+refactor
+reference
+registry
+reinforcement learning
+release
+release notes
+replication
+repository
+repository pattern
+requirements
+rest
+restore
+reverse proxy
+review
+roadmap
+robotic process automation
+robotics
+roc curve
+role
+rollback
+route
+router
+ruby
+rule
+run
+runtime
+rust
+sample
+scalability
+scaling
+scheduler
+schema
+scikit-learn
+scripting
+scripts
+sdk
+secret
+secret manager
+security
+semantic versioning
+serial
+server
+serverless
+service
+session
+setup
+sharding
+shell
+signal
+snowflake
+socket
+software engineering
+source code
+spark
+sql
+ssl
+ssl certificate
+staging
+standardization
+state machine
+statement
+storage
+storage engine
+stream
+stress testing
+style guide
+support
+swagger
+swift
+syntax
+system call
+tag
+task
+tcp/ip
+team
+template
+tensorflow
+terminal
+terraform
+test
+test coverage
+testing
+testing framework
+text editor
+thread
+throughput
+tls
+token
+tool
+training
+trigger
+ttl
+tutorial
+typescript
+ui
+unit of work
+unit test
+unity
+unreal engine
+update
+upgrade
+url
+usage
+usage example
+user
+ux
+vagrant
+variable
+venv
+version
+version control
+view
+virtualenv
+virtualization
+volume
+vpn
+vr
+web development
+web security
+websocket
+weights
+windows
+worker
+workflow
+xml
+yaml
+yarn

@@ -1,1 +1,1 @@
-hi my name is naoufal, i am doing good
+the best strategi
