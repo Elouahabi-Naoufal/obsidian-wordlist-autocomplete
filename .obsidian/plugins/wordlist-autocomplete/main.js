@@ -49,7 +49,8 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   onTrigger(cursor, editor) {
     const line = editor.getLine(cursor.line);
     const beforeCursor = line.substring(0, cursor.ch);
-    const match = beforeCursor.match(/\b(\w{3,})$/);
+    const minLength = this.plugin.settings.minLetters;
+    const match = beforeCursor.match(new RegExp(`\\b(\\w{${minLength},})$`));
     if (match) {
       return {
         start: { line: cursor.line, ch: cursor.ch - match[1].length },
@@ -74,11 +75,37 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     }
   }
 };
+var DEFAULT_SETTINGS = {
+  minLetters: 3
+};
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
+    await this.loadSettings();
     this.suggestor = new WordlistSuggest(this);
     this.registerEditorSuggest(this.suggestor);
+    this.addSettingTab(new WordlistSettingTab(this.app, this));
   }
   onunload() {
+  }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+};
+var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Wordlist Autocomplete Settings" });
+    new import_obsidian.Setting(containerEl).setName("Minimum letters to trigger").setDesc("Number of letters needed before autocomplete appears").addSlider((slider) => slider.setLimits(1, 10, 1).setValue(this.plugin.settings.minLetters).setDynamicTooltip().onChange(async (value) => {
+      this.plugin.settings.minLetters = value;
+      await this.plugin.saveSettings();
+    }));
   }
 };
