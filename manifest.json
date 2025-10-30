@@ -1,0 +1,11 @@
+{
+	"id": "wordlist-autocomplete",
+	"name": "Wordlist Autocomplete",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Autocomplete suggestions from a wordlist after typing 3 letters",
+	"author": "User",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
