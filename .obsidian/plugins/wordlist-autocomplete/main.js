@@ -35,8 +35,17 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     this.plugin = plugin;
     this.loadWordlist();
   }
+  shorthand(word) {
+    if (!word) return word;
+    const first = word[0];
+    const rest = word.slice(1).replace(/[aeiouAEIOU]/g, '');
+    return first + rest;
+  }
+  
   async loadWordlist() {
     this.words = [];
+    this.shorthandMap = new Map();
+    
     for (const filename of this.plugin.settings.selectedWordlists) {
       try {
         const file = this.plugin.app.vault.getAbstractFileByPath(filename);
@@ -49,7 +58,17 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
         console.error(`Failed to load wordlist ${filename}:`, error);
       }
     }
+    
     this.words = [...new Set(this.words)];
+    
+    // Build shorthand mapping
+    for (const word of this.words) {
+      const key = this.shorthand(word).toLowerCase();
+      if (!this.shorthandMap.has(key)) {
+        this.shorthandMap.set(key, []);
+      }
+      this.shorthandMap.get(key).push(word);
+    }
   }
   onTrigger(cursor, editor) {
     const line = editor.getLine(cursor.line);
@@ -67,7 +86,25 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   }
   getSuggestions(context) {
     const query = context.query.toLowerCase();
-    return this.words.filter((word) => word.toLowerCase().startsWith(query)).slice(0, 10).map((word) => ({ word }));
+    const matches = new Set();
+    
+    // Direct prefix matches
+    for (const word of this.words) {
+      if (word.toLowerCase().startsWith(query)) {
+        matches.add(word);
+      }
+    }
+    
+    // Shorthand matches (if enabled)
+    if (this.plugin.settings.enableShorthand) {
+      for (const [shortKey, wordList] of this.shorthandMap) {
+        if (shortKey.startsWith(query)) {
+          wordList.forEach(word => matches.add(word));
+        }
+      }
+    }
+    
+    return Array.from(matches).slice(0, 10).map((word) => ({ word }));
   }
   renderSuggestion(suggestion, el) {
     el.createEl("div", { text: suggestion.word });
@@ -82,7 +119,8 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
 };
 var DEFAULT_SETTINGS = {
   minLetters: 3,
-  selectedWordlists: ["mega_wordlist.txt"]
+  selectedWordlists: ["mega_wordlist.txt"],
+  enableShorthand: true
 };
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
@@ -171,6 +209,11 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     containerEl.createEl("h2", { text: "Wordlist Autocomplete Settings" });
     new import_obsidian.Setting(containerEl).setName("Minimum letters to trigger").setDesc("Number of letters needed before autocomplete appears").addSlider((slider) => slider.setLimits(1, 10, 1).setValue(this.plugin.settings.minLetters).setDynamicTooltip().onChange(async (value) => {
       this.plugin.settings.minLetters = value;
+      await this.plugin.saveSettings();
+    }));
+    
+    new import_obsidian.Setting(containerEl).setName("Enable shorthand matching").setDesc("Allow typing 'orcl' to match 'Oracle' (removes vowels except first letter)").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableShorthand).onChange(async (value) => {
+      this.plugin.settings.enableShorthand = value;
       await this.plugin.saveSettings();
     }));
     

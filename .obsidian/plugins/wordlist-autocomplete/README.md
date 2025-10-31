@@ -10,6 +10,7 @@ This Obsidian plugin provides autocomplete suggestions from multiple .txt wordli
 - Shows up to 10 matching suggestions
 - Case-insensitive matching
 - Automatic deduplication of words across files
+- **Shorthand matching**: Type "orcl" to match "Oracle" (removes vowels except first letter)
 
 ## Installation
 
@@ -27,6 +28,12 @@ This Obsidian plugin provides autocomplete suggestions from multiple .txt wordli
 ## Usage
 
 Simply start typing any word with the configured number of letters, and the plugin will show matching suggestions from all selected wordlists. Use arrow keys to navigate and Enter to select a suggestion.
+
+**Shorthand Examples:**
+- Type "orcl" → suggests "Oracle"
+- Type "mcrsft" → suggests "Microsoft" 
+- Type "appl" → suggests "Apple"
+- Type "dtbs" → suggests "Database"
 
 ## Building
 

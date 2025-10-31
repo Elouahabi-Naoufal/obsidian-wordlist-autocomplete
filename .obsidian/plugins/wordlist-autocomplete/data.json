@@ -3,5 +3,6 @@
   "selectedWordlists": [
     "mega_wordlist.txt",
     "documentation_words.txt"
-  ]
+  ],
+  "enableShorthand": true
 }
