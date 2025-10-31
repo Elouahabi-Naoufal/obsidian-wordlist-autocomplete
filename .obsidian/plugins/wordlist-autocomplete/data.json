@@ -1,3 +1,7 @@
 {
-  "minLetters": 3
+  "minLetters": 1,
+  "selectedWordlists": [
+    "mega_wordlist.txt",
+    "documentation_words.txt"
+  ]
 }

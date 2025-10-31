@@ -36,15 +36,20 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     this.loadWordlist();
   }
   async loadWordlist() {
-    try {
-      const file = this.plugin.app.vault.getAbstractFileByPath("mega_wordlist.txt");
-      if (file instanceof import_obsidian.TFile) {
-        const content = await this.plugin.app.vault.read(file);
-        this.words = content.split(/\r?\n/).filter((word) => word.trim().length > 0);
+    this.words = [];
+    for (const filename of this.plugin.settings.selectedWordlists) {
+      try {
+        const file = this.plugin.app.vault.getAbstractFileByPath(filename);
+        if (file instanceof import_obsidian.TFile) {
+          const content = await this.plugin.app.vault.read(file);
+          const fileWords = content.split(/\r?\n/).filter((word) => word.trim().length > 0);
+          this.words.push(...fileWords);
+        }
+      } catch (error) {
+        console.error(`Failed to load wordlist ${filename}:`, error);
       }
-    } catch (error) {
-      console.error("Failed to load wordlist:", error);
     }
+    this.words = [...new Set(this.words)];
   }
   onTrigger(cursor, editor) {
     const line = editor.getLine(cursor.line);
@@ -76,7 +81,8 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   }
 };
 var DEFAULT_SETTINGS = {
-  minLetters: 3
+  minLetters: 3,
+  selectedWordlists: ["mega_wordlist.txt"]
 };
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
@@ -93,11 +99,71 @@ var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
   }
+  
+  async reloadWordlists() {
+    if (this.suggestor) {
+      await this.suggestor.loadWordlist();
+    }
+  }
 };
+var FileSelectionModal = class extends import_obsidian.Modal {
+  constructor(app, files, selectedFiles, onSubmit) {
+    super(app);
+    this.files = files;
+    this.selectedFiles = [...selectedFiles];
+    this.onSubmit = onSubmit;
+  }
+  
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h2", { text: "Select wordlist files" });
+    
+    this.files.forEach(file => {
+      const setting = new import_obsidian.Setting(contentEl)
+        .setName(file.name)
+        .setDesc(file.path)
+        .addToggle(toggle => toggle
+          .setValue(this.selectedFiles.includes(file.path))
+          .onChange(value => {
+            if (value) {
+              if (!this.selectedFiles.includes(file.path)) {
+                this.selectedFiles.push(file.path);
+              }
+            } else {
+              this.selectedFiles = this.selectedFiles.filter(f => f !== file.path);
+            }
+          }));
+    });
+    
+    new import_obsidian.Setting(contentEl)
+      .addButton(btn => btn.setButtonText("Save").setCta().onClick(() => {
+        this.onSubmit(this.selectedFiles);
+        this.close();
+      }))
+      .addButton(btn => btn.setButtonText("Cancel").onClick(() => this.close()));
+  }
+  
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
 var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
+  }
+  
+  updateSelectedFilesList(container) {
+    container.empty();
+    if (this.plugin.settings.selectedWordlists.length === 0) {
+      container.createEl("div", { text: "No files selected", cls: "setting-item-description" });
+    } else {
+      this.plugin.settings.selectedWordlists.forEach(file => {
+        container.createEl("div", { text: file, cls: "setting-item-description" });
+      });
+    }
   }
   display() {
     const { containerEl } = this;
@@ -106,6 +172,22 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     new import_obsidian.Setting(containerEl).setName("Minimum letters to trigger").setDesc("Number of letters needed before autocomplete appears").addSlider((slider) => slider.setLimits(1, 10, 1).setValue(this.plugin.settings.minLetters).setDynamicTooltip().onChange(async (value) => {
       this.plugin.settings.minLetters = value;
       await this.plugin.saveSettings();
+    }));
+    
+    const wordlistSetting = new import_obsidian.Setting(containerEl).setName("Wordlist files").setDesc("Select .txt files to use for autocomplete");
+    
+    const selectedFilesDiv = wordlistSetting.controlEl.createDiv();
+    this.updateSelectedFilesList(selectedFilesDiv);
+    
+    wordlistSetting.addButton((button) => button.setButtonText("Browse files").onClick(async () => {
+      const txtFiles = this.plugin.app.vault.getFiles().filter(file => file.extension === "txt");
+      const modal = new FileSelectionModal(this.plugin.app, txtFiles, this.plugin.settings.selectedWordlists, async (selected) => {
+        this.plugin.settings.selectedWordlists = selected;
+        await this.plugin.saveSettings();
+        await this.plugin.suggestor.loadWordlist();
+        this.updateSelectedFilesList(selectedFilesDiv);
+      });
+      modal.open();
     }));
   }
 };
