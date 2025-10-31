@@ -11,6 +11,7 @@ This Obsidian plugin provides autocomplete suggestions from multiple .txt wordli
 - Case-insensitive matching
 - Automatic deduplication of words across files
 - **Shorthand matching**: Type "orcl" to match "Oracle" (removes vowels except first letter)
+- **Case preservation**: Match your input case - "ORACLE" → "ORACLE", "oracle" → "oracle"
 
 ## Installation
 
@@ -24,6 +25,7 @@ This Obsidian plugin provides autocomplete suggestions from multiple .txt wordli
 1. Go to Settings → Community Plugins → Wordlist Autocomplete
 2. Adjust the minimum letters trigger (1-10)
 3. Add your wordlist filenames (one per line) in the "Wordlist files" setting
+4. Toggle shorthand matching and case preservation as needed
 
 ## Usage
 

@@ -2,7 +2,9 @@
   "minLetters": 1,
   "selectedWordlists": [
     "mega_wordlist.txt",
-    "documentation_words.txt"
+    "documentation_words.txt",
+    "english_language.txt"
   ],
-  "enableShorthand": true
+  "enableShorthand": true,
+  "preserveCase": true
 }

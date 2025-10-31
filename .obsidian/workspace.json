@@ -171,6 +171,9 @@
   },
   "active": "1d2cea67ef6af1b8",
   "lastOpenFiles": [
+    "english_language.txt",
+    "extract_english_words.py",
+    "raw.txt",
     "process_wordlist.py",
     "Welcome.md",
     "documentation_words.txt",

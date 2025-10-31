@@ -113,14 +113,28 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     const { context } = this;
     if (context) {
       const editor = context.editor;
-      editor.replaceRange(suggestion.word + " ", context.start, context.end);
+      let insertWord = suggestion.word;
+      
+      if (this.plugin.settings.preserveCase) {
+        const query = context.query;
+        if (query === query.toUpperCase()) {
+          insertWord = suggestion.word.toUpperCase();
+        } else if (query === query.toLowerCase()) {
+          insertWord = suggestion.word.toLowerCase();
+        } else if (query[0] === query[0].toUpperCase()) {
+          insertWord = suggestion.word[0].toUpperCase() + suggestion.word.slice(1).toLowerCase();
+        }
+      }
+      
+      editor.replaceRange(insertWord + " ", context.start, context.end);
     }
   }
 };
 var DEFAULT_SETTINGS = {
   minLetters: 3,
   selectedWordlists: ["mega_wordlist.txt"],
-  enableShorthand: true
+  enableShorthand: true,
+  preserveCase: false
 };
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
@@ -214,6 +228,11 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     
     new import_obsidian.Setting(containerEl).setName("Enable shorthand matching").setDesc("Allow typing 'orcl' to match 'Oracle' (removes vowels except first letter)").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableShorthand).onChange(async (value) => {
       this.plugin.settings.enableShorthand = value;
+      await this.plugin.saveSettings();
+    }));
+    
+    new import_obsidian.Setting(containerEl).setName("Preserve case").setDesc("Match the case of your input: 'ORACLE' → 'ORACLE', 'oracle' → 'oracle', 'Oracle' → 'Oracle'").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveCase).onChange(async (value) => {
+      this.plugin.settings.preserveCase = value;
       await this.plugin.saveSettings();
     }));
     
