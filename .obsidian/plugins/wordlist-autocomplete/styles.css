@@ -1,0 +1,100 @@
+.wordlist-suggestion {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 8px;
+}
+
+.wordlist-suggestion .word {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.wordlist-suggestion .meta {
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.wordlist-suggestion .domain {
+  background: var(--background-modifier-border);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.wordlist-suggestion .category {
+  background: var(--background-modifier-border-hover);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.file-config {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px 0;
+  background: var(--background-primary);
+}
+
+.drag-handle {
+  cursor: grab;
+  padding: 4px 8px;
+  color: var(--text-muted);
+  font-size: 16px;
+  user-select: none;
+}
+
+.drag-handle:hover {
+  color: var(--text-normal);
+}
+
+.file-content {
+  flex: 1;
+}
+
+.file-config[draggable="true"] {
+  cursor: move;
+}
+
+.file-config.dragging {
+  opacity: 0.5;
+}
+
+.file-config.drag-over {
+  border-color: var(--interactive-accent);
+  background: var(--background-modifier-hover);
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 16px 0;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 8px;
+  background: var(--background-primary);
+}
+
+.category-item.dragging {
+  opacity: 0.5;
+}
+
+.category-name {
+  flex: 1;
+  margin-left: 8px;
+}

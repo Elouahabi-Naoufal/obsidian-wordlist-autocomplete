@@ -1,10 +1,114 @@
 {
   "minLetters": 1,
+  "dictionaryFolder": "IT_to_json",
+  "enabledFiles": [
+    {
+      "path": "IT_to_json/statistics.json",
+      "enabled": false,
+      "order": 0,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/quality_assurance.json",
+      "enabled": false,
+      "order": 1,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/it_support_helpdesk.json",
+      "enabled": false,
+      "order": 2,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/all_it_domains.json",
+      "enabled": false,
+      "order": 3,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/mobile_development.json",
+      "enabled": false,
+      "order": 4,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/web_development.json",
+      "enabled": false,
+      "order": 5,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/system_administration.json",
+      "enabled": false,
+      "order": 6,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/devops.json",
+      "enabled": false,
+      "order": 7,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/database_management.json",
+      "enabled": false,
+      "order": 8,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/network_administration.json",
+      "enabled": false,
+      "order": 9,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/cloud_computing.json",
+      "enabled": false,
+      "order": 10,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/data_science_analytics.json",
+      "enabled": false,
+      "order": 11,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/cybersecurity.json",
+      "enabled": false,
+      "order": 12,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/software_development.json",
+      "enabled": true,
+      "order": 13,
+      "categoryOrder": {
+        "PROGRAMMING LANGUAGES": 0,
+        "DEVELOPMENT TOOLS": 1,
+        "PROGRAMMING CONCEPTS": 2,
+        "FRAMEWORKS & LIBRARIES": 3,
+        "ADVANCED CONCEPTS": 4,
+        "CODE QUALITY": 5,
+        "CONTAINERIZATION & ORCHESTRATION": 6,
+        "DATABASES": 7,
+        "CLOUD PLATFORMS": 8,
+        "CDN & PERFORMANCE": 9,
+        "MONITORING & OBSERVABILITY": 10,
+        "COMMUNICATION & COLLABORATION": 11,
+        "DESIGN & PROTOTYPING": 12,
+        "TESTING TOOLS": 13,
+        "DESIGN PATTERNS": 14
+      }
+    }
+  ],
+  "globalOrder": "category",
+  "enableShorthand": true,
+  "preserveCase": true,
   "selectedWordlists": [
     "mega_wordlist.txt",
     "documentation_words.txt",
     "english_language.txt"
-  ],
-  "enableShorthand": true,
-  "preserveCase": true
+  ]
 }

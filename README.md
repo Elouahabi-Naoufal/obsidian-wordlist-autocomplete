@@ -1,23 +1,47 @@
 # Wordlist Autocomplete Plugin
 
-This Obsidian plugin provides autocomplete suggestions from your `mega_wordlist.txt` file after typing exactly 3 letters.
+This Obsidian plugin provides autocomplete suggestions from JSON wordlist files with domain and category metadata.
 
 ## Features
 
 - Triggers autocomplete after typing 3 or more letters
-- Uses the `mega_wordlist.txt` file in your vault root
-- Shows up to 10 matching suggestions
-- Case-insensitive matching
+- Uses JSON files with domain and category metadata
+- Shows up to 10 matching suggestions with metadata display
+- Filter suggestions by domain or category
+- Rank suggestions by relevance, frequency, or alphabetically
+- Shorthand matching (e.g., 'orcl' matches 'Oracle')
+- Case preservation
 
 ## Installation
 
 1. Copy the plugin files to your vault's `.obsidian/plugins/wordlist-autocomplete/` folder
 2. Enable the plugin in Obsidian settings
-3. Make sure your `mega_wordlist.txt` file is in the vault root
+3. Select JSON wordlist files in plugin settings
+
+## JSON Format
+
+Wordlist files should be in JSON format:
+```json
+{
+  "word": {
+    "domain": "Domain Name",
+    "category": "Category Name",
+    "frequency": 1
+  }
+}
+```
 
 ## Usage
 
-Simply start typing any word with 3 or more letters, and the plugin will show matching suggestions from your wordlist. Use arrow keys to navigate and Enter to select a suggestion.
+Start typing any word with 3+ letters to see suggestions with domain and category metadata. Use filters in settings to narrow results by domain or category.
+
+## Settings
+
+- **Domain Filter**: Show only words from specific domains
+- **Category Filter**: Show only words from specific categories  
+- **Ranking Method**: Sort by relevance, frequency, or alphabetically
+- **Shorthand Matching**: Enable vowel-removal matching
+- **Case Preservation**: Match input case in suggestions
 
 ## Building
 

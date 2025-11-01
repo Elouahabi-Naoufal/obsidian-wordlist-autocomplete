@@ -3,7 +3,7 @@
 	"name": "Wordlist Autocomplete",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Autocomplete suggestions from a wordlist after typing 3 letters",
+	"description": "Autocomplete suggestions from JSON wordlist files with domain and category filtering",
 	"author": "User",
 	"authorUrl": "",
 	"fundingUrl": "",

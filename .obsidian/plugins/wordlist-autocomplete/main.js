@@ -31,9 +31,9 @@ var import_obsidian = require("obsidian");
 var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
-    this.words = [];
+    this.wordData = new Map();
     this.plugin = plugin;
-    this.loadWordlist();
+    this.loadWordlists();
   }
   shorthand(word) {
     if (!word) return word;
@@ -42,32 +42,33 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     return first + rest;
   }
   
-  async loadWordlist() {
-    this.words = [];
-    this.shorthandMap = new Map();
+  async loadWordlists() {
+    this.wordData.clear();
     
-    for (const filename of this.plugin.settings.selectedWordlists) {
+    for (const fileConfig of this.plugin.settings.enabledFiles) {
+      if (!fileConfig.enabled) continue;
+      
       try {
-        const file = this.plugin.app.vault.getAbstractFileByPath(filename);
-        if (file instanceof import_obsidian.TFile) {
+        const file = this.plugin.app.vault.getAbstractFileByPath(fileConfig.path);
+        if (file instanceof import_obsidian.TFile && file.extension === 'json') {
           const content = await this.plugin.app.vault.read(file);
-          const fileWords = content.split(/\r?\n/).filter((word) => word.trim().length > 0);
-          this.words.push(...fileWords);
+          const jsonData = JSON.parse(content);
+          
+          for (const [word, metadata] of Object.entries(jsonData)) {
+            const categoryOrder = fileConfig.categoryOrder[metadata.category] || 999;
+            this.wordData.set(word.toLowerCase(), {
+              word: word,
+              domain: metadata.domain,
+              category: metadata.category,
+              frequency: metadata.frequency || 1,
+              fileOrder: fileConfig.order,
+              categoryOrder: categoryOrder
+            });
+          }
         }
       } catch (error) {
-        console.error(`Failed to load wordlist ${filename}:`, error);
+        console.error(`Failed to load wordlist ${fileConfig.path}:`, error);
       }
-    }
-    
-    this.words = [...new Set(this.words)];
-    
-    // Build shorthand mapping
-    for (const word of this.words) {
-      const key = this.shorthand(word).toLowerCase();
-      if (!this.shorthandMap.has(key)) {
-        this.shorthandMap.set(key, []);
-      }
-      this.shorthandMap.get(key).push(word);
     }
   }
   onTrigger(cursor, editor) {
@@ -86,28 +87,64 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   }
   getSuggestions(context) {
     const query = context.query.toLowerCase();
-    const matches = new Set();
+    const suggestions = [];
+    const shorthandQuery = this.shorthand(query);
     
-    // Direct prefix matches
-    for (const word of this.words) {
-      if (word.toLowerCase().startsWith(query)) {
-        matches.add(word);
+    for (const [word, data] of this.wordData) {
+      const matchType = this.getMatchType(word, query, shorthandQuery);
+      if (matchType) {
+        suggestions.push({
+          word: data.word,
+          domain: data.domain,
+          category: data.category,
+          frequency: data.frequency,
+          fileOrder: data.fileOrder,
+          categoryOrder: data.categoryOrder,
+          match: matchType
+        });
       }
     }
     
-    // Shorthand matches (if enabled)
-    if (this.plugin.settings.enableShorthand) {
-      for (const [shortKey, wordList] of this.shorthandMap) {
-        if (shortKey.startsWith(query)) {
-          wordList.forEach(word => matches.add(word));
-        }
-      }
-    }
+    return this.rankSuggestions(suggestions).slice(0, 10);
+  }
+  
+  getMatchType(word, query, shorthandQuery) {
+    if (word.startsWith(query)) return 'prefix';
+    if (this.plugin.settings.enableShorthand && this.shorthand(word).toLowerCase().startsWith(shorthandQuery)) return 'shorthand';
+    if (word.includes(query)) return 'contains';
+    return null;
+  }
+  
+  rankSuggestions(suggestions) {
+    const globalOrder = this.plugin.settings.globalOrder;
     
-    return Array.from(matches).slice(0, 10).map((word) => ({ word }));
+    return suggestions.sort((a, b) => {
+      // Primary: match type
+      const matchOrder = { prefix: 0, shorthand: 1, contains: 2 };
+      if (a.match !== b.match) {
+        return matchOrder[a.match] - matchOrder[b.match];
+      }
+      
+      // Secondary: global order
+      if (globalOrder === 'file') {
+        if (a.fileOrder !== b.fileOrder) return a.fileOrder - b.fileOrder;
+      } else if (globalOrder === 'category') {
+        if (a.categoryOrder !== b.categoryOrder) return a.categoryOrder - b.categoryOrder;
+      } else if (globalOrder === 'frequency') {
+        if (a.frequency !== b.frequency) return b.frequency - a.frequency;
+      }
+      
+      // Tertiary: alphabetical
+      return a.word.localeCompare(b.word);
+    });
   }
   renderSuggestion(suggestion, el) {
-    el.createEl("div", { text: suggestion.word });
+    const container = el.createEl('div', { cls: 'wordlist-suggestion' });
+    container.createEl('span', { text: suggestion.word, cls: 'word' });
+    
+    const meta = container.createEl('div', { cls: 'meta' });
+    meta.createEl('span', { text: suggestion.domain, cls: 'domain' });
+    meta.createEl('span', { text: suggestion.category, cls: 'category' });
   }
   selectSuggestion(suggestion, evt) {
     const { context } = this;
@@ -132,7 +169,9 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
 };
 var DEFAULT_SETTINGS = {
   minLetters: 3,
-  selectedWordlists: ["mega_wordlist.txt"],
+  dictionaryFolder: '',
+  enabledFiles: [],
+  globalOrder: 'file',
   enableShorthand: true,
   preserveCase: false
 };
@@ -154,45 +193,106 @@ var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   
   async reloadWordlists() {
     if (this.suggestor) {
-      await this.suggestor.loadWordlist();
+      await this.suggestor.loadWordlists();
     }
   }
 };
-var FileSelectionModal = class extends import_obsidian.Modal {
-  constructor(app, files, selectedFiles, onSubmit) {
+
+
+
+var CategoryOrderModal = class extends import_obsidian.Modal {
+  constructor(app, categories, currentOrder, onSubmit) {
     super(app);
-    this.files = files;
-    this.selectedFiles = [...selectedFiles];
+    this.categories = categories;
+    this.currentOrder = currentOrder;
     this.onSubmit = onSubmit;
   }
   
   onOpen() {
     const { contentEl } = this;
-    contentEl.createEl("h2", { text: "Select wordlist files" });
+    contentEl.createEl("h2", { text: "Set category order" });
     
-    this.files.forEach(file => {
-      const setting = new import_obsidian.Setting(contentEl)
-        .setName(file.name)
-        .setDesc(file.path)
-        .addToggle(toggle => toggle
-          .setValue(this.selectedFiles.includes(file.path))
-          .onChange(value => {
-            if (value) {
-              if (!this.selectedFiles.includes(file.path)) {
-                this.selectedFiles.push(file.path);
-              }
-            } else {
-              this.selectedFiles = this.selectedFiles.filter(f => f !== file.path);
-            }
-          }));
+    const categoryList = contentEl.createDiv({ cls: "category-list" });
+    
+    const sortedCategories = this.categories.sort((a, b) => {
+      const orderA = this.currentOrder[a] || 999;
+      const orderB = this.currentOrder[b] || 999;
+      return orderA - orderB;
+    });
+    
+    sortedCategories.forEach((category, index) => {
+      const categoryDiv = categoryList.createDiv({ cls: "category-item" });
+      const dragHandle = categoryDiv.createDiv({ cls: "drag-handle", text: "⋮⋮" });
+      const nameDiv = categoryDiv.createDiv({ cls: "category-name", text: category });
+      
+      this.setupCategoryDragAndDrop(dragHandle, categoryDiv);
     });
     
     new import_obsidian.Setting(contentEl)
       .addButton(btn => btn.setButtonText("Save").setCta().onClick(() => {
-        this.onSubmit(this.selectedFiles);
+        const newOrder = {};
+        const categoryItems = categoryList.querySelectorAll('.category-item');
+        categoryItems.forEach((item, index) => {
+          const categoryName = item.querySelector('.category-name').textContent;
+          newOrder[categoryName] = index;
+        });
+        this.onSubmit(newOrder);
         this.close();
       }))
       .addButton(btn => btn.setButtonText("Cancel").onClick(() => this.close()));
+  }
+  
+  setupCategoryDragAndDrop(dragHandle, categoryDiv) {
+    let isDragging = false;
+    let startY = 0;
+    
+    dragHandle.addEventListener('mousedown', (e) => {
+      isDragging = false;
+      startY = e.clientY;
+      
+      const onMouseMove = (e) => {
+        if (!isDragging && Math.abs(e.clientY - startY) > 5) {
+          isDragging = true;
+          categoryDiv.classList.add('dragging');
+        }
+        
+        if (isDragging) {
+          const afterElement = this.getCategoryDragAfterElement(categoryDiv.parentElement, e.clientY);
+          if (afterElement == null) {
+            categoryDiv.parentElement.appendChild(categoryDiv);
+          } else {
+            categoryDiv.parentElement.insertBefore(categoryDiv, afterElement);
+          }
+        }
+      };
+      
+      const onMouseUp = () => {
+        if (isDragging) {
+          categoryDiv.classList.remove('dragging');
+        }
+        document.removeEventListener('mousemove', onMouseMove);
+        document.removeEventListener('mouseup', onMouseUp);
+      };
+      
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+      e.preventDefault();
+    });
+  }
+  
+  getCategoryDragAfterElement(container, y) {
+    const draggableElements = [...container.querySelectorAll('.category-item:not(.dragging)')];
+    
+    return draggableElements.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const offset = y - box.top - box.height / 2;
+      
+      if (offset < 0 && offset > closest.offset) {
+        return { offset: offset, element: child };
+      } else {
+        return closest;
+      }
+    }, { offset: Number.NEGATIVE_INFINITY }).element;
   }
   
   onClose() {
@@ -207,49 +307,203 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     this.plugin = plugin;
   }
   
-  updateSelectedFilesList(container) {
-    container.empty();
-    if (this.plugin.settings.selectedWordlists.length === 0) {
-      container.createEl("div", { text: "No files selected", cls: "setting-item-description" });
-    } else {
-      this.plugin.settings.selectedWordlists.forEach(file => {
-        container.createEl("div", { text: file, cls: "setting-item-description" });
-      });
-    }
-  }
   display() {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Wordlist Autocomplete Settings" });
+    
     new import_obsidian.Setting(containerEl).setName("Minimum letters to trigger").setDesc("Number of letters needed before autocomplete appears").addSlider((slider) => slider.setLimits(1, 10, 1).setValue(this.plugin.settings.minLetters).setDynamicTooltip().onChange(async (value) => {
       this.plugin.settings.minLetters = value;
       await this.plugin.saveSettings();
     }));
     
-    new import_obsidian.Setting(containerEl).setName("Enable shorthand matching").setDesc("Allow typing 'orcl' to match 'Oracle' (removes vowels except first letter)").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableShorthand).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Enable shorthand matching").setDesc("Allow typing 'orcl' to match 'Oracle'").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableShorthand).onChange(async (value) => {
       this.plugin.settings.enableShorthand = value;
       await this.plugin.saveSettings();
     }));
     
-    new import_obsidian.Setting(containerEl).setName("Preserve case").setDesc("Match the case of your input: 'ORACLE' → 'ORACLE', 'oracle' → 'oracle', 'Oracle' → 'Oracle'").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveCase).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Preserve case").setDesc("Match input case in suggestions").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveCase).onChange(async (value) => {
       this.plugin.settings.preserveCase = value;
       await this.plugin.saveSettings();
     }));
     
-    const wordlistSetting = new import_obsidian.Setting(containerEl).setName("Wordlist files").setDesc("Select .txt files to use for autocomplete");
-    
-    const selectedFilesDiv = wordlistSetting.controlEl.createDiv();
-    this.updateSelectedFilesList(selectedFilesDiv);
-    
-    wordlistSetting.addButton((button) => button.setButtonText("Browse files").onClick(async () => {
-      const txtFiles = this.plugin.app.vault.getFiles().filter(file => file.extension === "txt");
-      const modal = new FileSelectionModal(this.plugin.app, txtFiles, this.plugin.settings.selectedWordlists, async (selected) => {
-        this.plugin.settings.selectedWordlists = selected;
+    new import_obsidian.Setting(containerEl).setName("Dictionary folder").setDesc("Folder containing JSON dictionary files").addDropdown((dropdown) => {
+      const folders = this.getVaultFolders();
+      dropdown.addOption("", "Select folder...");
+      folders.forEach(folder => dropdown.addOption(folder, folder));
+      dropdown.setValue(this.plugin.settings.dictionaryFolder).onChange(async (value) => {
+        this.plugin.settings.dictionaryFolder = value;
         await this.plugin.saveSettings();
-        await this.plugin.suggestor.loadWordlist();
-        this.updateSelectedFilesList(selectedFilesDiv);
+        if (value) {
+          this.loadFilesFromFolder();
+        }
+        this.display();
       });
-      modal.open();
+    });
+    
+    if (this.plugin.settings.dictionaryFolder) {
+      containerEl.createEl("div", { text: `Current folder: ${this.plugin.settings.dictionaryFolder}`, cls: "setting-item-description" });
+    }
+    
+    new import_obsidian.Setting(containerEl).setName("Global suggestion order").setDesc("Primary ordering method for suggestions").addDropdown((dropdown) => dropdown.addOption("file", "File order").addOption("category", "Category order").addOption("frequency", "Frequency").addOption("alphabetical", "Alphabetical").setValue(this.plugin.settings.globalOrder).onChange(async (value) => {
+      this.plugin.settings.globalOrder = value;
+      await this.plugin.saveSettings();
     }));
+    
+    this.displayFileSettings(containerEl);
+  }
+  
+  displayFileSettings(containerEl) {
+    if (!this.plugin.settings.dictionaryFolder) return;
+    
+    containerEl.createEl("h3", { text: "Dictionary Files" });
+    
+    const fileListDiv = containerEl.createDiv({ cls: "file-list" });
+    
+    this.plugin.settings.enabledFiles.forEach((fileConfig, index) => {
+      const fileDiv = fileListDiv.createDiv({ cls: "file-config", attr: { "data-index": index } });
+      
+      const dragHandle = fileDiv.createDiv({ cls: "drag-handle", text: "⋮⋮" });
+      
+      const contentDiv = fileDiv.createDiv({ cls: "file-content" });
+      
+      new import_obsidian.Setting(contentDiv)
+        .setName(fileConfig.path.split('/').pop())
+        .addToggle(toggle => toggle.setValue(fileConfig.enabled).onChange(async (value) => {
+          this.plugin.settings.enabledFiles[index].enabled = value;
+          await this.plugin.saveSettings();
+          await this.plugin.reloadWordlists();
+        }))
+
+        .addButton(btn => btn.setButtonText("Category order").onClick(async () => {
+          const categories = await this.getCategoriesFromFile(fileConfig.path);
+          const modal = new CategoryOrderModal(this.plugin.app, categories, fileConfig.categoryOrder, (newOrder) => {
+            this.plugin.settings.enabledFiles[index].categoryOrder = newOrder;
+            this.plugin.saveSettings();
+          });
+          modal.open();
+        }));
+      
+      this.setupDragAndDrop(dragHandle, fileDiv, index);
+    });
+  }
+  
+  setupDragAndDrop(dragHandle, fileDiv, index) {
+    let isDragging = false;
+    let startY = 0;
+    let startIndex = index;
+    
+    dragHandle.addEventListener('mousedown', (e) => {
+      isDragging = false;
+      startY = e.clientY;
+      startIndex = Array.from(fileDiv.parentElement.children).indexOf(fileDiv);
+      
+      const onMouseMove = (e) => {
+        if (!isDragging && Math.abs(e.clientY - startY) > 5) {
+          isDragging = true;
+          fileDiv.classList.add('dragging');
+        }
+        
+        if (isDragging) {
+          const afterElement = this.getDragAfterElement(fileDiv.parentElement, e.clientY);
+          if (afterElement == null) {
+            fileDiv.parentElement.appendChild(fileDiv);
+          } else {
+            fileDiv.parentElement.insertBefore(fileDiv, afterElement);
+          }
+        }
+      };
+      
+      const onMouseUp = async () => {
+        if (isDragging) {
+          fileDiv.classList.remove('dragging');
+          const newIndex = Array.from(fileDiv.parentElement.children).indexOf(fileDiv);
+          if (startIndex !== newIndex) {
+            await this.reorderFiles(startIndex, newIndex);
+          }
+        }
+        document.removeEventListener('mousemove', onMouseMove);
+        document.removeEventListener('mouseup', onMouseUp);
+      };
+      
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+      e.preventDefault();
+    });
+  }
+  
+  getDragAfterElement(container, y) {
+    const draggableElements = [...container.querySelectorAll('.file-config:not(.dragging)')];
+    
+    return draggableElements.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const offset = y - box.top - box.height / 2;
+      
+      if (offset < 0 && offset > closest.offset) {
+        return { offset: offset, element: child };
+      } else {
+        return closest;
+      }
+    }, { offset: Number.NEGATIVE_INFINITY }).element;
+  }
+  
+  async reorderFiles(fromIndex, toIndex) {
+    const files = this.plugin.settings.enabledFiles;
+    const [movedFile] = files.splice(fromIndex, 1);
+    files.splice(toIndex, 0, movedFile);
+    
+    files.forEach((file, i) => {
+      file.order = i;
+    });
+    
+    await this.plugin.saveSettings();
+    await this.plugin.reloadWordlists();
+    this.display();
+  }
+  
+  async loadFilesFromFolder() {
+    const folderPath = this.plugin.settings.dictionaryFolder;
+    const files = this.plugin.app.vault.getFiles().filter(file => 
+      file.path.startsWith(folderPath) && file.extension === 'json'
+    );
+    
+    this.plugin.settings.enabledFiles = files.map((file, index) => ({
+      path: file.path,
+      enabled: false,
+      order: index,
+      categoryOrder: {}
+    }));
+    
+    // Sort by current order if exists
+    this.plugin.settings.enabledFiles.sort((a, b) => a.order - b.order);
+    
+    await this.plugin.saveSettings();
+  }
+  
+  getVaultFolders() {
+    const folders = [];
+    const allFiles = this.plugin.app.vault.getAllLoadedFiles();
+    
+    allFiles.forEach(file => {
+      if (file instanceof import_obsidian.TFolder) {
+        folders.push(file.path);
+      }
+    });
+    
+    return folders.sort();
+  }
+  
+  async getCategoriesFromFile(filePath) {
+    try {
+      const file = this.plugin.app.vault.getAbstractFileByPath(filePath);
+      if (file instanceof import_obsidian.TFile) {
+        const content = await this.plugin.app.vault.read(file);
+        const jsonData = JSON.parse(content);
+        return [...new Set(Object.values(jsonData).map(item => item.category))];
+      }
+    } catch (error) {
+      console.error(`Error reading categories from ${filePath}:`, error);
+    }
+    return [];
   }
 };
