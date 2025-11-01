@@ -98,3 +98,65 @@
   flex: 1;
   margin-left: 8px;
 }
+
+.correction-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 16px 0;
+}
+
+.correction-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+.correction-item input[type="checkbox"] {
+  margin-right: 12px;
+}
+
+.correction-text {
+  flex: 1;
+  margin-right: 12px;
+}
+
+.correction-text .original {
+  color: var(--text-error);
+  text-decoration: line-through;
+}
+
+.correction-text .arrow {
+  color: var(--text-muted);
+  margin: 0 4px;
+}
+
+.correction-text .suggestion {
+  color: var(--text-success);
+  font-weight: 500;
+}
+
+.correction-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.correction-meta .domain {
+  background: var(--background-modifier-border);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.correction-meta .category {
+  background: var(--background-modifier-border-hover);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.correction-meta .confidence {
+  color: var(--text-muted);
+  font-weight: 500;
+}

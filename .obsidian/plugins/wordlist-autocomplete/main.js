@@ -181,6 +181,36 @@ var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
     this.suggestor = new WordlistSuggest(this);
     this.registerEditorSuggest(this.suggestor);
     this.addSettingTab(new WordlistSettingTab(this.app, this));
+    
+    this.addCommand({
+      id: 'correct-file',
+      name: 'Correct current file',
+      editorCallback: (editor) => this.correctFile(editor)
+    });
+    
+    this.addCommand({
+      id: 'lowercase-file',
+      name: 'Convert file to lowercase',
+      editorCallback: (editor) => this.transformFile(editor, text => text.toLowerCase())
+    });
+    
+    this.addCommand({
+      id: 'uppercase-file',
+      name: 'Convert file to uppercase',
+      editorCallback: (editor) => this.transformFile(editor, text => text.toUpperCase())
+    });
+    
+    this.addCommand({
+      id: 'capitalize-first',
+      name: 'Capitalize first letter',
+      editorCallback: (editor) => this.transformFile(editor, text => this.toSentenceCase(text))
+    });
+    
+    this.addCommand({
+      id: 'sentence-case',
+      name: 'Convert to sentence case',
+      editorCallback: (editor) => this.transformFile(editor, text => this.toSentenceCase(text))
+    });
   }
   onunload() {
   }
@@ -196,9 +226,209 @@ var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
       await this.suggestor.loadWordlists();
     }
   }
+  
+  async correctFile(editor) {
+    const content = editor.getValue();
+    const corrections = await this.findCorrections(content);
+    
+    if (corrections.length === 0) {
+      new import_obsidian.Notice('No corrections found');
+      return;
+    }
+    
+    const modal = new CorrectionModal(this.app, corrections, (acceptedCorrections) => {
+      const correctedContent = this.applyCorrections(content, acceptedCorrections);
+      editor.setValue(correctedContent);
+      new import_obsidian.Notice(`Applied ${acceptedCorrections.length} corrections`);
+    });
+    modal.open();
+  }
+  
+  transformFile(editor, transformFn) {
+    const content = editor.getValue();
+    const transformedContent = transformFn(content);
+    editor.setValue(transformedContent);
+  }
+  
+  async findCorrections(text) {
+    const corrections = [];
+    const words = text.match(/\b[a-zA-Z]+\b/g) || [];
+    const wordData = this.suggestor.wordData;
+    
+    for (const word of words) {
+      const lowerWord = word.toLowerCase();
+      
+      // Skip if exact match exists
+      if (wordData.has(lowerWord)) continue;
+      
+      // Skip if it's likely a valid grammatical variation
+      if (this.isLikelyValidVariation(lowerWord, wordData)) continue;
+      
+      const suggestion = this.findBestMatch(lowerWord, wordData);
+      if (suggestion) {
+        corrections.push({
+          original: word,
+          suggestion: this.preserveCase(word, suggestion.word),
+          confidence: suggestion.confidence,
+          domain: suggestion.domain,
+          category: suggestion.category
+        });
+      }
+    }
+    
+    return corrections.filter((c, i, arr) => 
+      arr.findIndex(x => x.original === c.original) === i
+    );
+  }
+  
+  isLikelyValidVariation(word, wordData) {
+    // Check common suffixes that indicate grammatical variations
+    const suffixes = ['s', 'es', 'ed', 'ing', 'er', 'est', 'ly', 'tion', 'sion', 'ness', 'ment', 'able', 'ible'];
+    
+    for (const suffix of suffixes) {
+      if (word.endsWith(suffix)) {
+        const stem = word.slice(0, -suffix.length);
+        
+        // Check if stem exists in dictionary
+        if (wordData.has(stem)) return true;
+        
+        // Check common stem variations
+        if (suffix === 'es' && wordData.has(stem + 'e')) return true;
+        if (suffix === 'ed' && wordData.has(stem + 'e')) return true;
+        if (suffix === 'ing' && wordData.has(stem + 'e')) return true;
+        if (suffix === 'ies' && word.endsWith('ies') && wordData.has(stem.slice(0, -1) + 'y')) return true;
+      }
+    }
+    
+    return false;
+  }
+  
+  findBestMatch(word, wordData) {
+    const candidates = [];
+    
+    // Shorthand match
+    const shorthandWord = this.suggestor.shorthand(word);
+    for (const [dictWord, data] of wordData) {
+      if (this.suggestor.shorthand(dictWord) === shorthandWord) {
+        candidates.push({ ...data, confidence: 0.8 });
+      }
+    }
+    
+    // Fuzzy match (Levenshtein distance ≤ 2)
+    if (candidates.length === 0) {
+      for (const [dictWord, data] of wordData) {
+        const distance = this.levenshteinDistance(word, dictWord);
+        if (distance <= 2 && distance > 0) {
+          candidates.push({ ...data, confidence: 1 - (distance / dictWord.length) });
+        }
+      }
+    }
+    
+    // Return best candidate if confidence > 0.6
+    const best = candidates.sort((a, b) => b.confidence - a.confidence)[0];
+    return best && best.confidence > 0.6 ? best : null;
+  }
+  
+  levenshteinDistance(a, b) {
+    const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+    
+    for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+    for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+    
+    for (let j = 1; j <= b.length; j++) {
+      for (let i = 1; i <= a.length; i++) {
+        const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+        matrix[j][i] = Math.min(
+          matrix[j][i - 1] + 1,
+          matrix[j - 1][i] + 1,
+          matrix[j - 1][i - 1] + cost
+        );
+      }
+    }
+    
+    return matrix[b.length][a.length];
+  }
+  
+  preserveCase(original, suggestion) {
+    if (original === original.toUpperCase()) return suggestion.toUpperCase();
+    if (original === original.toLowerCase()) return suggestion.toLowerCase();
+    if (original[0] === original[0].toUpperCase()) {
+      return suggestion[0].toUpperCase() + suggestion.slice(1).toLowerCase();
+    }
+    return suggestion;
+  }
+  
+  applyCorrections(text, corrections) {
+    let result = text;
+    corrections.forEach(correction => {
+      const regex = new RegExp(`\\b${correction.original}\\b`, 'g');
+      result = result.replace(regex, correction.suggestion);
+    });
+    return result;
+  }
+  
+  toSentenceCase(text) {
+    return text
+      .toLowerCase()
+      .replace(/(^|[.!?]\s+)([a-z])/g, (match, punct, letter) => 
+        punct + letter.toUpperCase());
+  }
 };
 
 
+
+var CorrectionModal = class extends import_obsidian.Modal {
+  constructor(app, corrections, onSubmit) {
+    super(app);
+    this.corrections = corrections;
+    this.onSubmit = onSubmit;
+    this.selectedCorrections = new Set(corrections.map((_, i) => i));
+  }
+  
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl('h2', { text: `Found ${this.corrections.length} potential corrections` });
+    
+    const correctionList = contentEl.createDiv({ cls: 'correction-list' });
+    
+    this.corrections.forEach((correction, index) => {
+      const item = correctionList.createDiv({ cls: 'correction-item' });
+      
+      const checkbox = item.createEl('input', { type: 'checkbox' });
+      checkbox.checked = true;
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+          this.selectedCorrections.add(index);
+        } else {
+          this.selectedCorrections.delete(index);
+        }
+      });
+      
+      const text = item.createDiv({ cls: 'correction-text' });
+      text.createEl('span', { text: correction.original, cls: 'original' });
+      text.createEl('span', { text: ' → ', cls: 'arrow' });
+      text.createEl('span', { text: correction.suggestion, cls: 'suggestion' });
+      
+      const meta = item.createDiv({ cls: 'correction-meta' });
+      meta.createEl('span', { text: correction.domain, cls: 'domain' });
+      meta.createEl('span', { text: correction.category, cls: 'category' });
+      meta.createEl('span', { text: `${Math.round(correction.confidence * 100)}%`, cls: 'confidence' });
+    });
+    
+    new import_obsidian.Setting(contentEl)
+      .addButton(btn => btn.setButtonText('Apply Selected').setCta().onClick(() => {
+        const selected = this.corrections.filter((_, i) => this.selectedCorrections.has(i));
+        this.onSubmit(selected);
+        this.close();
+      }))
+      .addButton(btn => btn.setButtonText('Cancel').onClick(() => this.close()));
+  }
+  
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
 
 var CategoryOrderModal = class extends import_obsidian.Modal {
   constructor(app, categories, currentOrder, onSubmit) {
