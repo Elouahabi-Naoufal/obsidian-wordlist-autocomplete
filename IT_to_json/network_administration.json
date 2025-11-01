@@ -1,0 +1,3186 @@
+{
+  "tcp": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "transmission": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "control": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "protocol": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "udp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "user": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "datagram": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "ip": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "internet": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "ipv4": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "ipv6": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "icmp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "message": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "arp": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "address": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "resolution": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "dhcp": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "dynamic": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "host": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "configuration": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "dns": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "domain": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "name": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "system": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "http": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "hypertext": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "transfer": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "https": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "secure": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "ftp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "file": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "sftp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "ssh": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "shell": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "telnet": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "smtp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "simple": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "mail": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "pop3": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "post": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "office": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "imap": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "access": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "snmp": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "network": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "management": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "ntp": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "time": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "ldap": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "lightweight": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "directory": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "kerberos": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "radius": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "remote": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "authentication": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "dial": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "in": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "service": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "tacacs": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "terminal": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS"
+  },
+  "controller": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "ospf": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "open": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "shortest": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "path": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "first": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "bgp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "border": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "gateway": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "eigrp": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "enhanced": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "interior": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "routing": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "rip": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "information": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "isis": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "intermediate": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "to": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "mpls": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "multiprotocol": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "label": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "switching": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "vrf": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "virtual": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "and": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "forwarding": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "route": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "redistribution": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "policy": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "based": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "pbr": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "equal": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "cost": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "multipath": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "ecmp": {
+    "domain": "Network Administration",
+    "category": "ROUTING PROTOCOLS"
+  },
+  "load": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "balancing": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "vlan": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "local": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "area": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "trunk": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "port": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "stp": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "spanning": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "tree": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "rstp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "rapid": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "mstp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "multiple": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "vtp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "trunking": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "dtp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "etherchannel": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "link": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "aggregation": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "lacp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "pagp": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "mac": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "table": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "cam": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "content": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "addressable": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "memory": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "loop": {
+    "domain": "Network Administration",
+    "category": "SWITCHING TECHNOLOGIES"
+  },
+  "broadcast": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "storm": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "firewall": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "stateful": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "stateless": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "packet": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "filtering": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "application": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "layer": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "proxy": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "server": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "intrusion": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "detection": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "ids": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "prevention": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "ips": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "nac": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "security": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "802.1x": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "wpa": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "wifi": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "protected": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "wpa2": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "wpa3": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "wep": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "wired": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "equivalent": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "privacy": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "vpn": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "private": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "ipsec": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "ssl": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "sockets": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "tls": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "transport": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "pki": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "public": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "key": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "infrastructure": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "certificate": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "authority": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "ca": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "digital": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "certificates": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "encryption": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "decryption": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "hashing": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "signatures": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY"
+  },
+  "wireless": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "fidelity": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "standards": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "802.11a": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11b": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11g": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11n": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11ac": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "802.11ax": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "wifi6": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "point": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "ap": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "wlc": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "lwapp": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "provisioning": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "of": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "points": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "capwap": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "set": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "identifier": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "ssid": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "basic": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "bss": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "extended": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "ess": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "roaming": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "handoff": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "channel": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "frequency": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "band": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "2.4ghz": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "5ghz": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "6ghz": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "mimo": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "input": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "output": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "beamforming": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "mesh": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "networking": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "distribution": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "wds": {
+    "domain": "Network Administration",
+    "category": "WIRELESS NETWORKING"
+  },
+  "router": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "switch": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "hub": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "bridge": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "modem": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "repeater": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "extender": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "balancer": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "attached": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "storage": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "nas": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "san": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "fiber": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "iscsi": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "small": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "computer": {
+    "domain": "Network Administration",
+    "category": "NETWORK DEVICES"
+  },
+  "interface": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "bus": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "topology": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "star": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "ring": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "hybrid": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "multipoint": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "full": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "partial": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "hierarchical": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "flat": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "three": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "tier": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "architecture": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "core": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "collapsed": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "spine": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "leaf": {
+    "domain": "Network Administration",
+    "category": "NETWORK TOPOLOGIES"
+  },
+  "ethernet": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "cable": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "twisted": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "pair": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "unshielded": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "utp": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "shielded": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "coaxial": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "optic": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "single": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "mode": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "multimode": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat5": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat5e": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat6": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat6a": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat7": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "cat8": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "rj45": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "connector": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "rj11": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "bnc": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "sc": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "lc": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "st": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "mtrj": {
+    "domain": "Network Administration",
+    "category": "NETWORK MEDIA"
+  },
+  "subnet": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "mask": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "cidr": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "classless": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "inter": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "subnetting": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "supernetting": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "vlsm": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "variable": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "length": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "classful": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "addressing": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "addresses": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "nat": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "translation": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "pat": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "static": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "overload": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "exhaustion": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "transition": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "dual": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "stack": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "tunneling": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "6to4": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "teredo": {
+    "domain": "Network Administration",
+    "category": "IP ADDRESSING"
+  },
+  "qos": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "quality": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "traffic": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "shaping": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "policing": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "congestion": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "avoidance": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "queuing": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "algorithms": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "fifo": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "out": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "priority": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "pq": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "weighted": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "fair": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "wfq": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "class": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "cbwfq": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "low": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "latency": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "llq": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "random": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "early": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "red": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "wred": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "differentiated": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "services": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "diffserv": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "integrated": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "intserv": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "resource": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "reservation": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "rsvp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "classification": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "marking": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "dscp": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "code": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "cos": {
+    "domain": "Network Administration",
+    "category": "QUALITY OF SERVICE"
+  },
+  "monitoring": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "performance": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "bandwidth": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "loss": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "availability": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "uptime": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "analyzer": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "capture": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "wireshark": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "tcpdump": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "netstat": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "ping": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "traceroute": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "tracert": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "pathping": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "nslookup": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "dig": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "iperf": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "netperf": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "mtr": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "my": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "nmap": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "mapper": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "nessus": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "vulnerability": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "scanner": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "nagios": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "zabbix": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "prtg": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "solarwinds": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "cacti": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "observium": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "librenms": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING"
+  },
+  "troubleshooting": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "methodology": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "osi": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "model": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "physical": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "data": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "session": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "presentation": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "bottom": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "up": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "approach": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "top": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "down": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "divide": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "conquer": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "follow": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "the": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "compare": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "configurations": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "problem": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "isolation": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "root": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "cause": {
+    "domain": "Network Administration",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "analysis": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "documentation": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "change": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "web": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "print": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "database": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "cache": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "syslog": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "tftp": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "trivial": {
+    "domain": "Network Administration",
+    "category": "NETWORK SERVICES"
+  },
+  "active": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "backup": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "enterprise": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "campus": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "center": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "wan": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "wide": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "lan": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "man": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "metropolitan": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "pan": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "personal": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "can": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "extranet": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "intranet": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "dmz": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "demilitarized": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "zone": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "perimeter": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "edge": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "branch": {
+    "domain": "Network Administration",
+    "category": "NETWORK ARCHITECTURE"
+  },
+  "ieee": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "institute": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "electrical": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "electronics": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "engineers": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "802.3": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "standard": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "802.1q": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "tagging": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "802.1d": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "802.1w": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "802.1s": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "ietf": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "engineering": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "task": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "force": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "rfc": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "request": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "for": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "comments": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "iso": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "international": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "organization": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "standardization": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "systems": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "interconnection": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "ansi": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "american": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "national": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "itu": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "telecommunication": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "union": {
+    "domain": "Network Administration",
+    "category": "NETWORK STANDARDS"
+  },
+  "nms": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "base": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "mib": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "object": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "oid": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "community": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "string": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "trap": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "get": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "walk": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "fault": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "accounting": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "fcaps": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "itil": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "technology": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "library": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "incident": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "cmdb": {
+    "domain": "Network Administration",
+    "category": "NETWORK MANAGEMENT"
+  },
+  "virtualization": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "software": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "defined": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "sdn": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "functions": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "nfv": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "vswitch": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "overlay": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "underlay": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "vxlan": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "extensible": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "nvgre": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "using": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "generic": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "encapsulation": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "geneve": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "openflow": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "openstack": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "neutron": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "vmware": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "nsx": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "cisco": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "aci": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "centric": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "juniper": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "contrail": {
+    "domain": "Network Administration",
+    "category": "VIRTUALIZATION"
+  },
+  "cloud": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "vpc": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "vnet": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "direct": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "connect": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "expressroute": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "interconnect": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "peering": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "connection": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "transit": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "sd": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "delivery": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "cdn": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "locations": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "global": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "manager": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "anycast": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "unicast": {
+    "domain": "Network Administration",
+    "category": "CLOUD NETWORKING"
+  },
+  "multicast": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "automation": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "as": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "iac": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "ansible": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "puppet": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "chef": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "saltstack": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "terraform": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "python": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "scripting": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "powershell": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "bash": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "rest": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "api": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "representational": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "state": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "programming": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "json": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "javascript": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "notation": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "xml": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "markup": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "language": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "yaml": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "yet": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "another": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "netconf": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "restconf": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "yang": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "modeling": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "openconfig": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "models": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "napalm": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "programmability": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "abstraction": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "with": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "multivendor": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "support": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "nornir": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "framework": {
+    "domain": "Network Administration",
+    "category": "NETWORK AUTOMATION"
+  },
+  "design": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "principles": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "modular": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "scalability": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "reliability": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "manageability": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "effectiveness": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "future": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "proofing": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "capacity": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "planning": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "requirements": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "jitter": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "redundancy": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "high": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "tolerance": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "disaster": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "recovery": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "business": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "continuity": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "level": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "agreement": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "sla": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "objective": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "slo": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "indicator": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "kpi": {
+    "domain": "Network Administration",
+    "category": "NETWORK DESIGN"
+  },
+  "optimization": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "tuning": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "throughput": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "caching": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "compression": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "deduplication": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "acceleration": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "buffer": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "mtu": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "maximum": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "unit": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "discovery": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "jumbo": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "frames": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "flow": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "window": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "scaling": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "selective": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "acknowledgment": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "sack": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "fast": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "retransmit": {
+    "domain": "Network Administration",
+    "category": "NETWORK OPTIMIZATION"
+  },
+  "intent": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ibn": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "artificial": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "intelligence": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ai": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "machine": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "learning": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ml": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "analytics": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "predictive": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "anomaly": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "self": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "healing": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "networks": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "autonomous": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "zero": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "touch": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ztp": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "5g": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "slicing": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "computing": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "fog": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "things": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "iot": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "industrial": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "iiot": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "sensitive": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "tsn": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "deterministic": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "detnet": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "segment": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "sr": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "srv6": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "over": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "smi": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "istio": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "linkerd": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "consul": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "envoy": {
+    "domain": "Network Administration",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "protocols": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "igmp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "group": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "pim": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "independent": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "msdp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "source": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "mvpn": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "te": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "ldp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "pcep": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "computation": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "element": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "bfd": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "bidirectional": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "oam": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "operations": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "administration": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "maintenance": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "cfm": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "connectivity": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "y.1731": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "twamp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "two": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "way": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "measurement": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "owamp": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "one": {
+    "domain": "Network Administration",
+    "category": "NETWORK PROTOCOLS ADVANCED"
+  },
+  "segmentation": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "micro": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "trust": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "ztna": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "sdp": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "eap": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "ttls": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "peap": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "sim": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "aka": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "captive": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "portal": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "inspection": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "dai": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "snooping": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "guard": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "pvlan": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "isolated": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "promiscuous": {
+    "domain": "Network Administration",
+    "category": "NETWORK SECURITY ADVANCED"
+  },
+  "netflow": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "sflow": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "ipfix": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "export": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "jflow": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "cflowd": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "telemetry": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "streaming": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "driven": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "grpc": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "gnmi": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "int": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "postcard": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "pbt": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "visibility": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "deep": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "dpi": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "avc": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "behavior": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "nba": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "entity": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "ueba": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "event": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "siem": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "orchestration": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "response": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "soar": {
+    "domain": "Network Administration",
+    "category": "NETWORK MONITORING ADVANCED"
+  },
+  "wifi6e": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "wifi7": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "802.11be": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "extremely": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "eht": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "ofdma": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "orthogonal": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "division": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "mu": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "multi": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "spatial": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "reuse": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "coloring": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "target": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "wake": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "twt": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "distributed": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "edca": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "block": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "ba": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "a": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "msdu": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "mpdu": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "bonding": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "interval": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "gi": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "modulation": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "coding": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "scheme": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "mcs": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "received": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "signal": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "strength": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "rssi": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "noise": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "ratio": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "snr": {
+    "domain": "Network Administration",
+    "category": "WIRELESS ADVANCED"
+  },
+  "testing": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "stress": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "reachability": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "fragmentation": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "penetration": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "compliance": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "interoperability": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "regression": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "acceptance": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "uat": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "integration": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "sit": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "end": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "synthetic": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "transaction": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "real": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "rum": {
+    "domain": "Network Administration",
+    "category": "NETWORK TESTING"
+  },
+  "diagram": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "logical": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "rack": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "elevation": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "plan": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "log": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "report": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "operating": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "procedure": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "sop": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "runbook": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "guide": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "inventory": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "asset": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "license": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "warranty": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "tracking": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "vendor": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "contact": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "escalation": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  },
+  "procedures": {
+    "domain": "Network Administration",
+    "category": "NETWORK DOCUMENTATION"
+  }
+}

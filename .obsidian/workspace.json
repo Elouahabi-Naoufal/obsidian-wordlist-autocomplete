@@ -171,16 +171,17 @@
   },
   "active": "1d2cea67ef6af1b8",
   "lastOpenFiles": [
-    "english_language.txt",
-    "extract_english_words.py",
-    "raw.txt",
-    "process_wordlist.py",
-    "Welcome.md",
-    "documentation_words.txt",
-    "unique_technologies.txt",
-    "technologies_extended_list.txt",
-    "Unconfirmed 384900.crdownload",
-    "technologies_list.txt",
-    "Unconfirmed 722242.crdownload"
+    "IT_to_json/statistics.json",
+    "IT_to_json/all_it_domains.json",
+    "IT_to_json/quality_assurance.json",
+    "IT_to_json/it_support_helpdesk.json",
+    "IT_to_json/mobile_development.json",
+    "IT_to_json/web_development.json",
+    "IT_to_json/system_administration.json",
+    "IT_to_json/devops.json",
+    "IT_to_json/database_management.json",
+    "IT_to_json/network_administration.json",
+    "IT_to_json/cloud_computing.json",
+    "Welcome.md"
   ]
 }

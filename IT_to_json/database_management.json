@@ -1,0 +1,2794 @@
+{
+  "mysql": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "postgresql": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "postgres": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "oracle": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "database": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "sql": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "server": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "microsoft": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "sqlite": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "mariadb": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "db2": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "ibm": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "sybase": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "ase": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "adaptive": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "enterprise": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "informix": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "teradata": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "vertica": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "greenplum": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "netezza": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "exadata": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "hana": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "sap": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "firebird": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "ingres": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "actian": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "monetdb": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "voltdb": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "memsql": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "singlestore": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "cockroachdb": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "yugabytedb": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "tidb": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "pingcap": {
+    "domain": "Database Management",
+    "category": "RELATIONAL DATABASES"
+  },
+  "spanner": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "google": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "cloud": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "aurora": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "amazon": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "azure": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "mongodb": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "document": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "cassandra": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "apache": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "redis": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "key": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "value": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "store": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "elasticsearch": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "search": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "engine": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "couchdb": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "neo4j": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "graph": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "dynamodb": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "hbase": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "riak": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "basho": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "orientdb": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "multi": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "model": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "arangodb": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "couchbase": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "influxdb": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "time": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "series": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "timescaledb": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "prometheus": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "clickhouse": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "column": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "oriented": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "druid": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "solr": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "lucene": {
+    "domain": "Database Management",
+    "category": "NOSQL DATABASES"
+  },
+  "acid": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "properties": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "atomicity": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "consistency": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "isolation": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "durability": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "base": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "basically": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "available": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "soft": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "state": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "eventual": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "cap": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "theorem": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "availability": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "partition": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "tolerance": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "transaction": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "commit": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "rollback": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "savepoint": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "two": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "phase": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "2pc": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "three": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "3pc": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "distributed": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "xa": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "saga": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "pattern": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "strong": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "weak": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "read": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "committed": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "uncommitted": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "repeatable": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "serializable": {
+    "domain": "Database Management",
+    "category": "DATABASE CONCEPTS"
+  },
+  "snapshot": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "structured": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "query": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "language": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "select": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "statement": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "insert": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "update": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "delete": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "create": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "table": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "alter": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "drop": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "truncate": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "where": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "clause": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "order": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "by": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "group": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "having": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "join": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "inner": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "left": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "right": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "full": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "outer": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "cross": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "self": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "union": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "all": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "intersect": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "except": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "minus": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "subquery": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "correlated": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "exists": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "not": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "in": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "like": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "wildcard": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "case": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "when": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "then": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "else": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "end": {
+    "domain": "Database Management",
+    "category": "SQL FUNDAMENTALS"
+  },
+  "design": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "entity": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "relationship": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "diagram": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "erd": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "conceptual": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "logical": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "physical": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "normalization": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "first": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "normal": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "form": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "1nf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "second": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "2nf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "third": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "3nf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "boyce": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "codd": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "bcnf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "fourth": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "4nf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "fifth": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "5nf": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "denormalization": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "primary": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "foreign": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "composite": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "candidate": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "alternate": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "surrogate": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "natural": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "unique": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "constraint": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "check": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "null": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "default": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "referential": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "integrity": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "cascade": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "set": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "no": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "action": {
+    "domain": "Database Management",
+    "category": "DATABASE DESIGN"
+  },
+  "index": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "clustered": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "non": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "partial": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "filtered": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "covering": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "included": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "columns": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "btree": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "hash": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "bitmap": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "text": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "spatial": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "gin": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "generalized": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "inverted": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "gist": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "tree": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "sp": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "space": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "partitioned": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "brin": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "block": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "range": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "bloom": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "filter": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "scan": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "seek": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "selectivity": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "cardinality": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "statistics": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "histogram": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "optimizer": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "execution": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "plan": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "cost": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "based": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "cbo": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "rule": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "rbo": {
+    "domain": "Database Management",
+    "category": "INDEXING"
+  },
+  "stored": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "procedure": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "function": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "user": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "defined": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "udf": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "scalar": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "valued": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "tvf": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "inline": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "aggregate": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "window": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "common": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "expression": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "cte": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "recursive": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "cursor": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "trigger": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "before": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "after": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "instead": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "of": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "row": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "level": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "dml": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "ddl": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "logon": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "package": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "overloading": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "exception": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "handling": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "try": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "catch": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "raise": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "error": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "throw": {
+    "domain": "Database Management",
+    "category": "STORED PROCEDURES & FUNCTIONS"
+  },
+  "administrator": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "dba": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "installation": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "configuration": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "patching": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "upgrade": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "migration": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "backup": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "restore": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "recovery": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "point": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "pitr": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "incremental": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "differential": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "log": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "hot": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "cold": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "online": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "offline": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "compression": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "encryption": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "verification": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "disaster": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "high": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "failover": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "clustering": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "replication": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "master": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "slave": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "synchronous": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "asynchronous": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "shipping": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "mirroring": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "always": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "on": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "groups": {
+    "domain": "Database Management",
+    "category": "DATABASE ADMINISTRATION"
+  },
+  "performance": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "tuning": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "optimization": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "explain": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "hints": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "parameter": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "sniffing": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "cache": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "buffer": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "pool": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "page": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "memory": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "management": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "cpu": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "utilization": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "io": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "disk": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "network": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "wait": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "blocking": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "deadlock": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "lock": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "escalation": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "timeout": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "rcsi": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "si": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "tempdb": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "parallelism": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "maxdop": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "max": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "degree": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "threshold": {
+    "domain": "Database Management",
+    "category": "PERFORMANCE TUNING"
+  },
+  "for": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "security": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "authentication": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "authorization": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "role": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "access": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "control": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "rbac": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "discretionary": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "dac": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "mandatory": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "mac": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "account": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "password": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "policy": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "lockout": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "login": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "audit": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "fine": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "grained": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "auditing": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "fga": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "transparent": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "data": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "tde": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "cell": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "encrypted": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "dynamic": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "masking": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "rls": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "virtual": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "private": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "vpd": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "firewall": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "injection": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "prevention": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "privilege": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "classification": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "loss": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "dlp": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "gdpr": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "compliance": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "hipaa": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "pci": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "dss": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "sox": {
+    "domain": "Database Management",
+    "category": "DATABASE SECURITY"
+  },
+  "warehouse": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "mart": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "oltp": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "processing": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "olap": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "analytical": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "etl": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "extract": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "transform": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "load": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "elt": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "integration": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "cleansing": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "quality": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "profiling": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "lineage": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "governance": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "mdm": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "dimensional": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "modeling": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "star": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "schema": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "snowflake": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "fact": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "dimension": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "slowly": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "changing": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "scd": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "type": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "1": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "2": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "3": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "bridge": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "junk": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "degenerate": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "conformed": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "business": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "grain": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "additive": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "measure": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "semi": {
+    "domain": "Database Management",
+    "category": "DATA WAREHOUSING"
+  },
+  "big": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "hadoop": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "ecosystem": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "hdfs": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "file": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "system": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "mapreduce": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "yarn": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "yet": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "another": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "resource": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "negotiator": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "hive": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "pig": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "spark": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "streaming": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "mllib": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "graphx": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "kafka": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "storm": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "flink": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "nifi": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "airflow": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "oozie": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "sqoop": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "flume": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "zookeeper": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "ambari": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "cloudera": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "hortonworks": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "mapr": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "databricks": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "lake": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "lakehouse": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "delta": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "iceberg": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "hudi": {
+    "domain": "Database Management",
+    "category": "BIG DATA"
+  },
+  "as": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "a": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "service": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "dbaas": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "rds": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "relational": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "redshift": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "documentdb": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "neptune": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "timestream": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "qldb": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "quantum": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ledger": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "cosmos": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "db": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "synapse": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "analytics": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "bigtable": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "firestore": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "datastore": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "bigquery": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "autonomous": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "infrastructure": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "cloudant": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "atlas": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "elastic": {
+    "domain": "Database Management",
+    "category": "CLOUD DATABASES"
+  },
+  "monitoring": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "real": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "historical": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "alerting": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "thresholds": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "dashboard": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "reporting": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "indicators": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "kpi": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "agreement": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "sla": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "objective": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "slo": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "mean": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "to": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "mttr": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "between": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "failures": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "mtbf": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "uptime": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "downtime": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "response": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "throughput": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "transactions": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "per": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "tps": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "queries": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "qps": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "connections": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "active": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "idle": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "connection": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "pooling": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "events": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "sessions": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "long": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "running": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "deadlocks": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "errors": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "warnings": {
+    "domain": "Database Management",
+    "category": "DATABASE MONITORING"
+  },
+  "unified": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "uml": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "class": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "object": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "orm": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "vault": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "anchor": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "agile": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "iterative": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "forward": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "engineering": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "reverse": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "dictionary": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "metadata": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "repository": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "catalog": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "impact": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "analysis": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "change": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "version": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "validation": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "documentation": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "architecture": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "reference": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "canonical": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "industry": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "models": {
+    "domain": "Database Management",
+    "category": "DATA MODELING"
+  },
+  "dbms": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "rdbms": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "studio": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "ssms": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "developer": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "workbench": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "pgadmin": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "phpmyadmin": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "adminer": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "dbeaver": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "navicat": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "toad": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "datagrip": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "jetbrains": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "aqua": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "dbvisualizer": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "squirrel": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "client": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "heidi": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "tableplus": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "sequel": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "pro": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "postico": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "robomongo": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "robo": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "3t": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "compass": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "desktop": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "manager": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "elasticvue": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "kibana": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "grafana": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "datadog": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "new": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "relic": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "solarwinds": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "analyzer": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "quest": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "spotlight": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "redgate": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "monitor": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "sentry": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "one": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "idera": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "poweradmin": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "dbwatch": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "paessler": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "prtg": {
+    "domain": "Database Management",
+    "category": "DATABASE TOOLS"
+  },
+  "application": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "platform": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "strategy": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "planning": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "assessment": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "tools": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "testing": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "cutover": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "zero": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "bulk": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "capture": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "cdc": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "heterogeneous": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "homogeneous": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "legacy": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "modernization": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "re": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "platforming": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "hosting": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "factoring": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "architecting": {
+    "domain": "Database Management",
+    "category": "DATABASE MIGRATION"
+  },
+  "schedule": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "retention": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "rotation": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "media": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "location": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "onsite": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "offsite": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "deduplication": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "continuity": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "rto": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "rpo": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "maximum": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "tolerable": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "mtd": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "mtdl": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "maintenance": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "standby": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "warm": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "passive": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "geographic": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "redundancy": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "region": {
+    "domain": "Database Management",
+    "category": "DATABASE BACKUP & RECOVERY"
+  },
+  "storage": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "thread": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "concurrency": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "partitioning": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "horizontal": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "vertical": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "list": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "pruning": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "elimination": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "archiving": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "purging": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "columnstore": {
+    "domain": "Database Management",
+    "category": "DATABASE OPTIMIZATION"
+  },
+  "newSQL": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "databases": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "columnar": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "vector": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "blockchain": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "serverless": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "edge": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "iot": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "event": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "sourcing": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "cqrs": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "command": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "responsibility": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "segregation": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "microservices": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "polyglot": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "persistence": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "mesh": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "fabric": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "virtualization": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "federated": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "federation": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "lambda": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "kappa": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "modern": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "stack": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "native": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "kubernetes": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "operator": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "gitops": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "code": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "devops": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "continuous": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "deployment": {
+    "domain": "Database Management",
+    "category": "EMERGING TECHNOLOGIES"
+  }
+}

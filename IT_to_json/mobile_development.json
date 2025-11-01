@@ -1,0 +1,1990 @@
+{
+  "ios": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "iphone": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "operating": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "system": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "android": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "google": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "windows": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "phone": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "mobile": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "blackberry": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "os": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "palm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "webos": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "tizen": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "samsung": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "kaios": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "feature": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "harmonyos": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "huawei": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "fuchsia": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "sailfish": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "jolla": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "ubuntu": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "touch": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "canonical": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "firefox": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "mozilla": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "bada": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "symbian": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "nokia": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "maemo": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "meego": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "intel": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PLATFORMS"
+  },
+  "native": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "development": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "swift": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "programming": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "language": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "objective": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "c": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "xcode": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "apple": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ide": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "cocoa": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "framework": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "uikit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "user": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "interface": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "kit": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "swiftui": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "declarative": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "ui": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "core": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "data": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "persistence": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "animation": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "location": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "services": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "mapkit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "maps": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "avfoundation": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "audio": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "video": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "webkit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "web": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "view": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "cloudkit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "cloud": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "healthkit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "health": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "homekit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "home": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "automation": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "sirikit": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "siri": {
+    "domain": "Mobile Development",
+    "category": "NATIVE DEVELOPMENT"
+  },
+  "integration": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "java": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "kotlin": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "studio": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "gradle": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "build": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "sdk": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "software": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "ndk": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "activity": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "fragment": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "intent": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "service": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "broadcast": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "receiver": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "content": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "provider": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "sqlite": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "database": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "room": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "library": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "retrofit": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "http": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "client": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "okhttp": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "glide": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "image": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "loading": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "picasso": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "dagger": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "dependency": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "injection": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "hilt": {
+    "domain": "Mobile Development",
+    "category": "ANDROID DEVELOPMENT"
+  },
+  "cross": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "platform": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "react": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "facebook": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "flutter": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "dart": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "xamarin": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "microsoft": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "forms": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "cordova": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "apache": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "phonegap": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "adobe": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "ionic": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "capacitor": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "bridge": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "nativescript": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "telerik": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "unity": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "3d": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "game": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "engine": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "unreal": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "epic": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "cocos2d": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "x": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "2d": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "godot": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "open": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "source": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "solar2d": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "corona": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "defold": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "king": {
+    "domain": "Mobile Development",
+    "category": "CROSS-PLATFORM FRAMEWORKS"
+  },
+  "design": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "ux": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "material": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "human": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "guidelines": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "hig": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "responsive": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "adaptive": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "first": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "interfaces": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "gesture": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "navigation": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "swipe": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "gestures": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "pinch": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "to": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "zoom": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "tap": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "long": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "press": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "patterns": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "tab": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "drawer": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "bottom": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "stack": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "modal": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "accessibility": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "voice": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "over": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "talkback": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "high": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "contrast": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "mode": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "large": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "text": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "support": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "color": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "blind": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "screen": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "reader": {
+    "domain": "Mobile Development",
+    "category": "UI/UX DESIGN"
+  },
+  "testing": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "unit": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "automated": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "manual": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "device": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "emulator": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "simulator": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "espresso": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "automator": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "xctest": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "xcui": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "test": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "appium": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "detox": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "maestro": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "firebase": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "lab": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "aws": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "farm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "amazon": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "browserstack": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "app": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "automate": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "sauce": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "labs": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "testflight": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "beta": {
+    "domain": "Mobile Development",
+    "category": "MOBILE TESTING"
+  },
+  "play": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "console": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "backend": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "as": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "a": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "mbaas": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "baas": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "amplify": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "azure": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "apps": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "parse": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "server": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "supabase": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "alternative": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "appwrite": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "realm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "mongodb": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "couchbase": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "lite": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "rest": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "api": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "graphql": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "websockets": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "real": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "time": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "communication": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "push": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "notifications": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "fcm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "messaging": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "apns": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "notification": {
+    "domain": "Mobile Development",
+    "category": "MOBILE BACKEND"
+  },
+  "security": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "encryption": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "secure": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "storage": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "keychain": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "keystore": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "biometric": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "authentication": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "fingerprint": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "face": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "id": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "oauth": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "jwt": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "json": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "tokens": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "ssl": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "pinning": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "certificate": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "code": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "obfuscation": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "anti": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "tampering": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "root": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "detection": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "jailbreak": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "runtime": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "application": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "self": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "protection": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "rasp": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "management": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "mdm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "mam": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "wrapping": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "shielding": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "penetration": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "scanning": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "static": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "analysis": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "dynamic": {
+    "domain": "Mobile Development",
+    "category": "MOBILE SECURITY"
+  },
+  "performance": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "optimization": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "monitoring": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "apm": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "memory": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "cpu": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "battery": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "network": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "lazy": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "caching": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "strategies": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "offline": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "background": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "processing": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "multithreading": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "async": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "reactive": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "leaks": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "profiling": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "tools": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "instruments": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "profiler": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "new": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "relic": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "appdynamics": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "dynatrace": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "launch": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "frame": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "rate": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "60fps": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "smooth": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "animations": {
+    "domain": "Mobile Development",
+    "category": "MOBILE PERFORMANCE"
+  },
+  "analytics": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "behavior": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "crash": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "reporting": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "error": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "tracking": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "for": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "mixpanel": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "amplitude": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "flurry": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "yahoo": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "annie": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "sensor": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "tower": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "figures": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "crashlytics": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "bugsnag": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "sentry": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "rollbar": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "instabug": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "bug": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "engagement": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "metrics": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "retention": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "conversion": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "funnel": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "cohort": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "b": {
+    "domain": "Mobile Development",
+    "category": "MOBILE ANALYTICS"
+  },
+  "store": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "aso": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "seo": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "keyword": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "title": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "description": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "icon": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "screenshots": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "preview": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "videos": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "ratings": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "reviews": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "ranking": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "factors": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "algorithms": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "appstore": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "appgallery": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "galaxy": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "connect": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "review": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "process": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "rejection": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "reasons": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "approval": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "policies": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "in": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "purchases": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "subscription": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "models": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "freemium": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "paid": {
+    "domain": "Mobile Development",
+    "category": "APP STORE OPTIMIZATION"
+  },
+  "ad": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "supported": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "monetization": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "iap": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "subscriptions": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "auto": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "renewable": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "consumable": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "non": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "model": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "premium": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "advertising": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "admob": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "audience": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "ads": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "ironsource": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "mediation": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "applovin": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "max": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "mopub": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "twitter": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "chartboost": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "vungle": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "tapjoy": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "rewarded": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "banner": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "interstitial": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "playable": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "offerwall": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "revenue": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "waterfall": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "header": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "bidding": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "programmatic": {
+    "domain": "Mobile Development",
+    "category": "MOBILE MONETIZATION"
+  },
+  "deployment": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "distribution": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "enterprise": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "hoc": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "internal": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "closed": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "hockey": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "appcenter": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "diawi": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "installr": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "continuous": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "ci": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "cd": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "fastlane": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "bitrise": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "codemagic": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "github": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "actions": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "workflows": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "gitlab": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "pipelines": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "jenkins": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "devops": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "signing": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "provisioning": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "profiles": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "certificates": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "release": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "version": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "semantic": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "versioning": {
+    "domain": "Mobile Development",
+    "category": "MOBILE DEPLOYMENT"
+  },
+  "5g": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "networks": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "edge": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "computing": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "augmented": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "reality": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ar": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "arkit": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "arcore": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "virtual": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "vr": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "mixed": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "mr": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "machine": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "learning": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ml": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "tensorflow": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "pytorch": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "onnx": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "computer": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "vision": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "cv": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "natural": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "nlp": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "speech": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "recognition": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "tts": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "internet": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "of": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "things": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "iot": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "beacon": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "technology": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "bluetooth": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "low": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "energy": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "ble": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "near": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "field": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "nfc": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "payments": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "pay": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "wallets": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "contactless": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "qr": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "blockchain": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "cryptocurrency": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "web3": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "progressive": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "pwa": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "instant": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "clips": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "foldable": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "devices": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "dual": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "wearable": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "watch": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "wear": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "smartwatch": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  },
+  "fitness": {
+    "domain": "Mobile Development",
+    "category": "EMERGING TECHNOLOGIES"
+  }
+}

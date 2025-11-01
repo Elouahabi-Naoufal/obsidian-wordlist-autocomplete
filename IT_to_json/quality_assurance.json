@@ -1,0 +1,3418 @@
+{
+  "software": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "testing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "quality": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "assurance": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "qa": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "control": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "qc": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "test": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "planning": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "strategy": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "design": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "execution": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "reporting": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "closure": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "verification": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "validation": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "defect": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "bug": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "error": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "fault": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "failure": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "case": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "scenario": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "suite": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "plan": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "data": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "environment": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "harness": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "framework": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "methodology": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "approach": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "objectives": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "scope": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "entry": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "criteria": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "exit": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "acceptance": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "pass": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "fail": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "traceability": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "matrix": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "requirements": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "rtm": {
+    "domain": "Quality Assurance",
+    "category": "TESTING FUNDAMENTALS"
+  },
+  "functional": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "non": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "unit": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "integration": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "system": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "user": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "uat": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "business": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "bat": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "alpha": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "beta": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "smoke": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "sanity": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "regression": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "retesting": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "exploratory": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "ad": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "hoc": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "monkey": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "gorilla": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "positive": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "negative": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "boundary": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "equivalence": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "partitioning": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "decision": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "table": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "state": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "transition": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "use": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "end": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "to": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "e2e": {
+    "domain": "Quality Assurance",
+    "category": "TESTING TYPES"
+  },
+  "component": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "interface": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "api": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "database": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "driven": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "level": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "big": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "bang": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "top": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "down": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "bottom": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "up": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "sandwich": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "hybrid": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "incremental": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "stub": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "driver": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "mock": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "object": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "double": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "fake": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "dummy": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "spy": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "sit": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "operational": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "oat": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "contract": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cat": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "regulation": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "rat": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "production": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "a": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "b": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "canary": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "shadow": {
+    "domain": "Quality Assurance",
+    "category": "TESTING LEVELS"
+  },
+  "performance": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "load": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "stress": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "volume": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "spike": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "endurance": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "soak": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "scalability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "capacity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "baseline": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "benchmark": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "response": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "time": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "throughput": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "transactions": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "per": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "second": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "tps": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "requests": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "rps": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "concurrent": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "users": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "virtual": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ramp": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "think": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "pacing": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "workload": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "modeling": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "bottleneck": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "analysis": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "resource": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "utilization": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cpu": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "memory": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "disk": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "network": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "monitoring": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "profiling": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "tuning": {
+    "domain": "Quality Assurance",
+    "category": "PERFORMANCE TESTING"
+  },
+  "optimization": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "jmeter": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "loadrunner": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "gatling": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "locust": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "k6": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "neoload": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "webload": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "silk": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "performer": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "security": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "vulnerability": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "penetration": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "ethical": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "hacking": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "audit": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "assessment": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "risk": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "threat": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "attack": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "surface": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "authentication": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "authorization": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "session": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "management": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "input": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "sql": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "injection": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "cross": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "site": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "scripting": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "xss": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "request": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "forgery": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "csrf": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "buffer": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "overflow": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "denial": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "of": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "service": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "dos": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "distributed": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "ddos": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "man": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "in": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "the": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "middle": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "mitm": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "hijacking": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "privilege": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "escalation": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "encryption": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "ssl": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "tls": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "certificate": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "firewall": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "intrusion": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "detection": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "malware": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "virus": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "trojan": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "ransomware": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "phishing": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "social": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "engineering": {
+    "domain": "Quality Assurance",
+    "category": "SECURITY TESTING"
+  },
+  "usability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "experience": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ux": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "ui": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "accessibility": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "a11y": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "centered": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "human": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "computer": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "interaction": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "hci": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "research": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "personas": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "journey": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "mapping": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "task": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "cognitive": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "walkthrough": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "heuristic": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "evaluation": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "expert": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "review": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "aloud": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "protocol": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "eye": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "tracking": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "heat": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "click": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "feedback": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "surveys": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "questionnaires": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "interviews": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "focus": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "groups": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "card": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "sorting": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "tree": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "first": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "five": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "preference": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "comparative": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "multivariate": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "mvt": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "conversion": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "rate": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "cro": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "landing": {
+    "domain": "Quality Assurance",
+    "category": "USABILITY TESTING"
+  },
+  "page": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "mobile": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "responsive": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "browser": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "platform": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "compatibility": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "operating": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "device": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "version": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "backward": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "forward": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "hardware": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "web": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "standards": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "compliance": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "tablet": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "desktop": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "resolution": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "screen": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "size": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "orientation": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "portrait": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "landscape": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "touch": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "keyboard": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "navigation": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "mouse": {
+    "domain": "Quality Assurance",
+    "category": "COMPATIBILITY TESTING"
+  },
+  "wcag": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "section": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "508": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "automation": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "automated": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "keyword": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "behavior": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "development": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "bdd": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "tdd": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "atdd": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "model": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pom": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "factory": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "selenium": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "webdriver": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "grid": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "appium": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "cypress": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "playwright": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testcafe": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "puppeteer": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "protractor": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "webdriverio": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "robot": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cucumber": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "specflow": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "behave": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "gherkin": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "given": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "when": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "then": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "feature": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "files": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "step": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "definitions": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "runner": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "engine": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "continuous": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "ci": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "ct": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "deployment": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "cd": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "jenkins": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "gitlab": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "github": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "actions": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "azure": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "devops": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "bamboo": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "teamcity": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "buildbot": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "travis": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "circle": {
+    "domain": "Quality Assurance",
+    "category": "AUTOMATION TESTING"
+  },
+  "app": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "ios": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "android": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "native": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "emulator": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "simulator": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "real": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "cloud": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "farm": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "gesture": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "swipe": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "pinch": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "zoom": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "rotation": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "battery": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "wifi": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "cellular": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "bluetooth": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "gps": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "camera": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "microphone": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "speaker": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "sensor": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "accelerometer": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "gyroscope": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "proximity": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "ambient": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "light": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "push": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "notification": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "background": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "foreground": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "store": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "installation": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "update": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "uninstallation": {
+    "domain": "Quality Assurance",
+    "category": "MOBILE TESTING"
+  },
+  "rest": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "soap": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "graphql": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "microservice": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "endpoint": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "http": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "methods": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "get": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "post": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "put": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "delete": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "patch": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "status": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "code": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "header": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "payload": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "json": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "xml": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "oauth": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "jwt": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "key": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "limiting": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "throttling": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "pagination": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "filtering": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "search": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "crud": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "operations": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "schema": {
+    "domain": "Quality Assurance",
+    "category": "API TESTING"
+  },
+  "postman": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "insomnia": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "assured": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "karate": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "dsl": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "newman": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "soapui": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "ready": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "swagger": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "openapi": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "nosql": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "create": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "read": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "integrity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "validity": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "accuracy": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "completeness": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "referential": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "entity": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "domain": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "defined": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "constraint": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "trigger": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "procedure": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "function": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "view": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "index": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "concurrency": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "deadlock": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "backup": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "recovery": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "migration": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "synchronization": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "replication": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "sharding": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "acid": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "properties": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "transaction": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "rollback": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "commit": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "isolation": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "consistency": {
+    "domain": "Quality Assurance",
+    "category": "DATABASE TESTING"
+  },
+  "estimation": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "scheduling": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "allocation": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "team": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "progress": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "metrics": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "dashboard": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "lifecycle": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "triage": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "prioritization": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "severity": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "priority": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "root": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cause": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "prevention": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "leakage": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "density": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "removal": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "efficiency": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "coverage": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "branch": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "statement": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "path": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "condition": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "modified": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "mcdc": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "configuration": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "change": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "communication": {
+    "domain": "Quality Assurance",
+    "category": "TEST MANAGEMENT"
+  },
+  "tools": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "jira": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testlink": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "zephyr": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "xray": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "qtest": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testpad": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "practitest": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testmo": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testrail": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testcollab": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testlodge": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testcasely": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "bugzilla": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "mantis": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "redmine": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "youtrack": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "linear": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "asana": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "trello": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "monday": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "com": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "clickup": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "notion": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "katalon": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "studio": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "ranorex": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "testcomplete": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "uft": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "unified": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "tosca": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "tricentis": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "worksoft": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "certify": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "blazemeter": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "loadninja": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "paw": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "httpie": {
+    "domain": "Quality Assurance",
+    "category": "TEST TOOLS"
+  },
+  "productivity": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "effectiveness": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "age": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "mean": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "detect": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "mttd": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "resolve": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "mttr": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "right": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "ftr": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "customer": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "satisfaction": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "cost": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "poor": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "return": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "on": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "investment": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "roi": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "percentage": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "maintenance": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "effort": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "availability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "schedule": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "adherence": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "budget": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY METRICS"
+  },
+  "processes": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "sdlc": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "waterfall": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "v": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "spiral": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "iterative": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "agile": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "scrum": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "kanban": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "method": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "extreme": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "programming": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "xp": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "lean": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "delivery": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "shift": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "left": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "based": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "context": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "quadrants": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "pyramid": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "trophy": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "diamond": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "whole": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "three": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "amigos": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "definition": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "done": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "sprint": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "retrospective": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "daily": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "standup": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "backlog": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "grooming": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "story": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "epic": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "theme": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "minimum": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "viable": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "product": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "mvp": {
+    "domain": "Quality Assurance",
+    "category": "QUALITY PROCESSES"
+  },
+  "regulatory": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "iso": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ieee": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ansi": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "iec": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "fda": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "hipaa": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "gdpr": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "pci": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "dss": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "sox": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ferpa": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "coppa": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ada": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "privacy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "protection": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "financial": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "healthcare": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "automotive": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "aerospace": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "defense": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "government": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "industry": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "specific": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "safety": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "26262": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "61508": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "do": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "178c": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "62304": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "14971": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "13485": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "510k": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ce": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "marking": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "rohs": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "reach": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "environmental": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "sustainability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "carbon": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "footprint": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "energy": {
+    "domain": "Quality Assurance",
+    "category": "COMPLIANCE TESTING"
+  },
+  "ai": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "artificial": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "intelligence": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "machine": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "learning": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ml": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "deep": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "neural": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "natural": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "language": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "processing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "nlp": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "vision": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "chatbot": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "voice": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "assistant": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "iot": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "internet": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "things": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "blockchain": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cryptocurrency": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "smart": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "microservices": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "containerized": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "docker": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "kubernetes": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "serverless": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "edge": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "computing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "5g": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ar": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "augmented": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "reality": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "vr": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "mixed": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "quantum": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biometric": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "facial": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "recognition": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "fingerprint": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "brain": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "wearable": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "home": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "autonomous": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "vehicle": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "drone": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "3d": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "printing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "additive": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "manufacturing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "nanotechnology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biotechnology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "medical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pharmaceutical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "clinical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "trial": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "genetic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "personalized": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "medicine": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "telemedicine": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "digital": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "health": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "fitness": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "tracker": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "remote": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "patient": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "electronic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "record": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ehr": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "information": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "exchange": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "hie": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "imaging": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "radiology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pathology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "laboratory": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "diagnostic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "therapeutic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "surgical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "rehabilitation": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "mental": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "behavioral": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "addiction": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "treatment": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pain": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "chronic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "disease": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "rare": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "orphan": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "drug": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "precision": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "genomic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "proteomic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "metabolomic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biomarker": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "companion": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "liquid": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biopsy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cell": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "therapy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "gene": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "immunotherapy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cancer": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "oncology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cardiology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "neurology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "endocrinology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "gastroenterology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pulmonology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "nephrology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "urology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "orthopedics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "dermatology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ophthalmology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "otolaryngology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pediatrics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "geriatrics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "obstetrics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "gynecology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "psychiatry": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "anesthesiology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "emergency": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "family": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "internal": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "surgery": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pharmacy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "nursing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "physical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "occupational": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "speech": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "respiratory": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "nutrition": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "work": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "care": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "coordination": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "population": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "public": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "epidemiology": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biostatistics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "economics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "policy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "informatics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "biomedical": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "dental": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "veterinary": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "consumer": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "translational": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "bioinformatics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "improvement": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "accreditation": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "certification": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "licensure": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "credentialing": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "privileging": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "peer": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "morbidity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "mortality": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "mode": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "effects": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "hazard": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "bow": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "tie": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "swiss": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cheese": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "factors": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ergonomics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "caregiver": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "community": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "equity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "determinants": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cultural": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "competency": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "access": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "literacy": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "divide": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "telehealth": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "rural": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "urban": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "global": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "international": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "disaster": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "preparedness": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "pandemic": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "bioterrorism": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "cybersecurity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "confidentiality": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "incident": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "continuity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "restoration": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "interoperability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "protocols": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "apis": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "interfaces": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "messaging": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "workflow": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "process": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "governance": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "oversight": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "accountability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "transparency": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "analytics": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "insights": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "outcomes": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "value": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "benefit": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "total": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "ownership": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "flexibility": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "adaptability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "resilience": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "robustness": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "reliability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "maintainability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "supportability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "operability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "installability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "configurability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "portability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "reusability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "testability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "understandability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "learnability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "attractiveness": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "maturity": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "tolerance": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "recoverability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "co": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "existence": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  },
+  "replaceability": {
+    "domain": "Quality Assurance",
+    "category": "EMERGING TRENDS"
+  }
+}

@@ -1,0 +1,4418 @@
+{
+  "algorithm": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "machine": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "learning": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "ml": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "supervised": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "unsupervised": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "semi": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "self": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "transfer": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "federated": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "ensemble": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "bagging": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "boosting": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "random": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "forest": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "gradient": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "descent": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "stochastic": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "sgd": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "adam": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "optimizer": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "decision": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "tree": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "id3": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "c4": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "c5": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "cart": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "classification": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "regression": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "trees": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "information": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "gain": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "entropy": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "gini": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "impurity": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "pruning": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "extra": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "extremely": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "randomized": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "xgboost": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "lightgbm": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "catboost": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "adaboost": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "adaptive": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "naive": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "bayes": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "gaussian": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "multinomial": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "bernoulli": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "complement": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "logistic": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "linear": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "polynomial": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "ridge": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "lasso": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "elastic": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "net": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "support": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "vector": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "svm": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "kernel": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "trick": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "rbf": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "radial": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "basis": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "function": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "sigmoid": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "k": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "nearest": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "neighbors": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "knn": {
+    "domain": "Data Science/Analytics",
+    "category": "MACHINE LEARNING ALGORITHMS"
+  },
+  "deep": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dl": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "neural": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "network": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "nn": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "convolutional": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "cnn": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "recurrent": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "rnn": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "lstm": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "gru": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "transformer": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "attention": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "mechanism": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "bert": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "gpt": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "llm": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "large": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "language": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "model": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "backpropagation": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "forward": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "pass": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "backward": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "epoch": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "batch": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "mini": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "rate": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hyperparameter": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "tuning": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "grid": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "search": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "bayesian": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "optimization": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "activation": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "relu": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "tanh": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "softmax": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "leaky": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "swish": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "gelu": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "loss": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "mse": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "mae": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "rmse": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "categorical": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "crossentropy": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "binary": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "sparse": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "hinge": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "huber": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "focal": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "dice": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "dropout": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "normalization": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "layer": {
+    "domain": "Data Science/Analytics",
+    "category": "DEEP LEARNING"
+  },
+  "nlp": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "natural": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "processing": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "tokenization": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "stemming": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "lemmatization": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "stopwords": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "ngrams": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "bigrams": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "trigrams": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "pos": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "tagging": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "named": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "entity": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "recognition": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "ner": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "sentiment": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "analysis": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "topic": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "modeling": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "lda": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "latent": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "dirichlet": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "allocation": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "lsa": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "semantic": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "indexing": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "nmf": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "non": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "negative": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "matrix": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "factorization": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "word": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "embeddings": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "word2vec": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "glove": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "fasttext": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "elmo": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "contextual": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "sentence": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "transformers": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "tfidf": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "term": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "frequency": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "inverse": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "document": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "bag": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "words": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "bow": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "vectorizer": {
+    "domain": "Data Science/Analytics",
+    "category": "NATURAL LANGUAGE PROCESSING"
+  },
+  "computer": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "vision": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "cv": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "image": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "object": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "detection": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "segmentation": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "face": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "optical": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "character": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "ocr": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "feature": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "extraction": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "edge": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "corner": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "histogram": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "equalization": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "morphological": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "operations": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "filtering": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "convolution": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "pooling": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "max": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "average": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "global": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "upsampling": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "downsampling": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "data": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "augmentation": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "rotation": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "scaling": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "flipping": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "cropping": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "brightness": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "contrast": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "saturation": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "hue": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "noise": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "blur": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "sharpen": {
+    "domain": "Data Science/Analytics",
+    "category": "COMPUTER VISION"
+  },
+  "precision": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "recall": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "f1": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "score": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "accuracy": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "sensitivity": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "specificity": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "auc": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "roc": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "curve": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "pr": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "confusion": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "true": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "positive": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "false": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "iou": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "intersection": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "over": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "union": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "cross": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "validation": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "fold": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "stratified": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "train": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "test": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "split": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "set": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "overfitting": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "underfitting": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "bias": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "variance": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "tradeoff": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "regularization": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "l1": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "l2": {
+    "domain": "Data Science/Analytics",
+    "category": "EVALUATION METRICS"
+  },
+  "engineering": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "selection": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "standardization": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "min": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "scaler": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "robust": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "quantile": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "one": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hot": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "encoding": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "label": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "ordinal": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "target": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "mean": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "count": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "dimensionality": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "reduction": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "pca": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "principal": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "component": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "ica": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "independent": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "tsne": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "umap": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "manifold": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE ENGINEERING"
+  },
+  "clustering": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "kmeans": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hierarchical": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "agglomerative": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "divisive": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "ward": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "linkage": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "complete": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "single": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "silhouette": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "coefficient": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "elbow": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "method": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "calinski": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "harabasz": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "index": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "davies": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "bouldin": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "adjusted": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "rand": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "mutual": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "ami": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "nmi": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "homogeneity": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "completeness": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "v": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "measure": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "mixture": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "gmm": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "expectation": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "maximization": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "em": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "dbscan": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "density": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "based": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "spatial": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "applications": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "time": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "series": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "forecasting": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "arima": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "autoregressive": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "integrated": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "moving": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "seasonal": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "sarima": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "exponential": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "smoothing": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "holt": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "winters": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "prophet": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "seq2seq": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "sequence": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "to": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "encoder": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "decoder": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "anomaly": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "outlier": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "isolation": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "class": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "local": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "factor": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "lof": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "collaborative": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "content": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "recommendation": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "system": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "recommender": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "svd": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "singular": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "value": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "decomposition": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "alternating": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "least": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "squares": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "als": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "implicit": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "explicit": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "feedback": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "cold": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "start": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "problem": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "evaluation": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "metrics": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "ndcg": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "normalized": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "discounted": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "cumulative": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "map": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hit": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "coverage": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "diversity": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "novelty": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "serendipity": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "statistics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "statistical": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "hypothesis": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "testing": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "null": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "alternative": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "p": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "significance": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "level": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "alpha": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "beta": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "power": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "effect": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "size": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "cohen": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "d": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "confidence": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "interval": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "bootstrap": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "sampling": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "permutation": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "monte": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "carlo": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "simulation": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "markov": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "chain": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "mcmc": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "gibbs": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "metropolis": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "hastings": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "variational": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "inference": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "vi": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "evidence": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "lower": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "bound": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "elbo": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "kl": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "divergence": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "kullback": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "leibler": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "jensen": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "shannon": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "maximum": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "likelihood": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "estimation": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "mle": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "posteriori": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "prior": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "posterior": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "conjugate": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "priors": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "gamma": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "normal": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "wishart": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "models": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "empirical": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "credible": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "highest": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "hdi": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "comparison": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "criterion": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "aic": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "akaike": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "bic": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "deviance": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "dic": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "waic": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "watanabe": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "widely": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "applicable": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "leave": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "out": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "loo": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "pareto": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "smoothed": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "importance": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "psis": {
+    "domain": "Data Science/Analytics",
+    "category": "STATISTICS"
+  },
+  "euclidean": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "distance": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "manhattan": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "cosine": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "similarity": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "jaccard": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "hamming": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "minkowski": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "chebyshev": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "mahalanobis": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "pearson": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "correlation": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "spearman": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "kendall": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "tau": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "chi": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "square": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "anova": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "t": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "wilcoxon": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "mann": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "whitney": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "kruskal": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "wallis": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "friedman": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "mcnemar": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "fisher": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "exact": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "bonferroni": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "correction": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "benjamini": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "hochberg": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "fdr": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "discovery": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "multiple": {
+    "domain": "Data Science/Analytics",
+    "category": "DISTANCE METRICS"
+  },
+  "tensorflow": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "keras": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "pytorch": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "jax": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "flax": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "haiku": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "optax": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "scikit": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "learn": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "sklearn": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "pandas": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "numpy": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "scipy": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "matplotlib": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "seaborn": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "plotly": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "bokeh": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "altair": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "streamlit": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "dash": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "jupyter": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "notebook": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "lab": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "colab": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "google": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "colaboratory": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "kaggle": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "kernels": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON LIBRARIES"
+  },
+  "r": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "rstudio": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "shiny": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "cran": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "bioconductor": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "tidyverse": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "dplyr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "ggplot2": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "tidyr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "readr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "purrr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "stringr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "forcats": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "lubridate": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "magrittr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "pipe": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "operator": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "table": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "dt": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "leaflet": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "dashboard": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "flexdashboard": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "rmarkdown": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "knitr": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "bookdown": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "blogdown": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "pkgdown": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "devtools": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "usethis": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "testthat": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "roxygen2": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "rcpp": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "reticulate": {
+    "domain": "Data Science/Analytics",
+    "category": "R ECOSYSTEM"
+  },
+  "python": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "anaconda": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "conda": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "miniconda": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "pip": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "virtualenv": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "venv": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "pipenv": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "poetry": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "requirements": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "txt": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "setup": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "py": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "wheel": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "pypi": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "package": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "ipython": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "spyder": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "pycharm": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "vscode": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "atom": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "sublime": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "text": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "vim": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "emacs": {
+    "domain": "Data Science/Analytics",
+    "category": "PYTHON ENVIRONMENT"
+  },
+  "git": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "github": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "gitlab": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "bitbucket": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "version": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "control": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "branch": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "merge": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "pull": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "request": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "commit": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "push": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "clone": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "fork": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "issue": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "tracking": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "continuous": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "integration": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ci": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "deployment": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "cd": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "jenkins": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "travis": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "circle": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "actions": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "azure": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "devops": {
+    "domain": "Data Science/Analytics",
+    "category": "VERSION CONTROL"
+  },
+  "docker": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "container": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "kubernetes": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "k8s": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "helm": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "chart": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "microservices": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "api": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "rest": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "graphql": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "flask": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "django": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "fastapi": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "gradio": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "huggingface": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "datasets": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "tokenizers": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "accelerate": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "diffusers": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "spaces": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "hub": {
+    "domain": "Data Science/Analytics",
+    "category": "CONTAINERIZATION"
+  },
+  "wandb": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "weights": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "biases": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "mlflow": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "experiment": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "management": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dvc": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "cml": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "kubeflow": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "pipelines": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "airflow": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "luigi": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "prefect": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "dagster": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "metaflow": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "kedro": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "zenml": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPERIMENT TRACKING"
+  },
+  "feast": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "store": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "tecton": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "hopsworks": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "databricks": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "aws": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "sagemaker": {
+    "domain": "Data Science/Analytics",
+    "category": "FEATURE STORES"
+  },
+  "vertex": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ai": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "great": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "expectations": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "quality": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "profiling": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "deequ": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "whylogs": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "evidently": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "deepchecks": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA QUALITY"
+  },
+  "alibi": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "detect": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "explain": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "fairness": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "mitigation": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "lime": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "interpretable": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "agnostic": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "explanations": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "shap": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "shapley": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "additive": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "eli5": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "like": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "am": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "5": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "partial": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "dependence": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "plots": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "pdp": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "individual": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "conditional": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "ice": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "accumulated": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "effects": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "ale": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "anchor": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "counterfactual": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "adversarial": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "examples": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "attacks": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "defense": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "robustness": {
+    "domain": "Data Science/Analytics",
+    "category": "EXPLAINABLE AI"
+  },
+  "privacy": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "preserving": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "differential": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "homomorphic": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "encryption": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "secure": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "multiparty": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "computation": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "smc": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "trusted": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "execution": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "environment": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "tee": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "intel": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "sgx": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "software": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "guard": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "extensions": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "amd": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "memory": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "arm": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "trustzone": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "confidential": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "computing": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "consortium": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ccc": {
+    "domain": "Data Science/Analytics",
+    "category": "PRIVACY & SECURITY"
+  },
+  "tinyml": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "quantization": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "knowledge": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "distillation": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "architecture": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "nas": {
+    "domain": "Data Science/Analytics",
+    "category": "EDGE AI"
+  },
+  "automl": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "automated": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "auto": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "tpot": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "h2o": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "autopilot": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "datarobot": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "mljar": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "pycaret": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "low": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "code": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "no": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "platforms": {
+    "domain": "Data Science/Analytics",
+    "category": "AUTOML"
+  },
+  "alteryx": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "tableau": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "prep": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "bi": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "dataflow": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "qlik": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "sense": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "looker": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "sisense": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "domo": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "thoughtspot": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "palantir": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "foundry": {
+    "domain": "Data Science/Analytics",
+    "category": "BUSINESS INTELLIGENCE"
+  },
+  "snowflake": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "lakehouse": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "delta": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "lake": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "apache": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "spark": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "pyspark": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "scala": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "sql": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "structured": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "streaming": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "mllib": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "graphx": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "hadoop": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "hdfs": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "distributed": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "file": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "yarn": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "yet": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "another": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "resource": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "negotiator": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "mapreduce": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "hive": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "pig": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "sqoop": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "flume": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "oozie": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "zookeeper": {
+    "domain": "Data Science/Analytics",
+    "category": "DATA WAREHOUSING"
+  },
+  "kafka": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "streams": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "connect": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "schema": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "registry": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "ksql": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "confluent": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "platform": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pulsar": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "functions": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "rabbitmq": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "message": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "queue": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "redis": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "structure": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "memcached": {
+    "domain": "Data Science/Analytics",
+    "category": "MESSAGE QUEUES"
+  },
+  "elasticsearch": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "engine": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "kibana": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "logstash": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "beats": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "stack": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "elk": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "solr": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "lucene": {
+    "domain": "Data Science/Analytics",
+    "category": "SEARCH ENGINES"
+  },
+  "mongodb": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "database": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "pymongo": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "mongoengine": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "cassandra": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "datastax": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "scylladb": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "neo4j": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "graph": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "cypher": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "arangodb": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "multi": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "orientdb": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "janusgraph": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "amazon": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "neptune": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "cosmos": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "db": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "cloud": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "firestore": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "postgresql": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "postgres": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "psycopg2": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "sqlalchemy": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "mysql": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "mariadb": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "sqlite": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "oracle": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "server": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "bigquery": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "redshift": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "warehouse": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "presto": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "trino": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "drill": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "impala": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "clickhouse": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "column": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "oriented": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "vertica": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "greenplum": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "teradata": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "exadata": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "sap": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "hana": {
+    "domain": "Data Science/Analytics",
+    "category": "DATABASES"
+  },
+  "visualization": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "microsoft": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "view": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "studio": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "radoop": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "driverless": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "dataiku": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "science": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "unified": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "analytics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "watson": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pak": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "infrastructure": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "viya": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "matlab": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "simulink": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "toolbox": {
+    "domain": "Data Science/Analytics",
+    "category": "VISUALIZATION TOOLS"
+  },
+  "signal": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "econometrics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "financial": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "fuzzy": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "wavelet": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "bioinformatics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "predictive": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "maintenance": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "driving": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "lidar": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "radar": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "communications": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "5g": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "wlan": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "lte": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "satellite": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "antenna": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "rf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pcb": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "microwave": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "motor": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "powertrain": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "vehicle": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dynamics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "aerospace": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "uav": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "robotics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ros": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "navigation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "mapping": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "audio": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dsp": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "phased": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "array": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "industrial": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "communication": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "opc": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "real": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "desktop": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "rapid": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "accelerator": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "external": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "mode": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "hardware": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "loop": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "hil": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "processor": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pil": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "polyspace": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "bug": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "finder": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "prover": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "static": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dynamic": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "plus": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ada": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "embedded": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "coder": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "gpu": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "hdl": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "fixed": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "point": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "designer": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "filter": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "design": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "verifier": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "mixed": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "blockset": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "serdes": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "soc": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "wireless": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "composer": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "aml": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "uml": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "systems": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sysml": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "business": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "process": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "notation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "bpmn": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dmn": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "case": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "cmmn": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "omg": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "international": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "organization": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "iso": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "institute": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "electrical": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "electronics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "engineers": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ieee": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "american": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "national": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "standards": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ansi": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "electrotechnical": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "commission": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "iec": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "european": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "telecommunications": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "etsi": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "3rd": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "generation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "partnership": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "project": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "3gpp": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "internet": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "task": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "force": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ietf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "world": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "wide": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "web": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "w3c": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "open": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "geospatial": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ogc": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "buildingsmart": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "bsi": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "group": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "framework": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "togaf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "zachman": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "federal": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "enterprise": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "feaf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "department": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dodaf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ministry": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "modaf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "nato": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "naf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "capability": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "maturity": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "cmmi": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "technology": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "library": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "itil": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "objectives": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "related": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "technologies": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "cobit": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "committee": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sponsoring": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "organizations": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "treadway": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "coso": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sarbanes": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "oxley": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "act": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sox": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "general": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "protection": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "regulation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "gdpr": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "california": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "consumer": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ccpa": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "health": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "insurance": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "portability": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "accountability": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "hipaa": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "payment": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "card": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "industry": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "standard": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pci": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "dss": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "risk": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "authorization": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "fedramp": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "cybersecurity": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "csf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "rmf": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "controls": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sp": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "800": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "53": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "guide": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "conducting": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "assessments": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "30": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "improving": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "critical": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27001": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "isms": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27002": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "practice": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27005": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27017": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "services": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27018": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "personally": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "identifiable": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "pii": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "public": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "clouds": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "acting": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "processors": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27032": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "guidelines": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27035": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "incident": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27037": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "identification": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "collection": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "acquisition": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "preservation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "digital": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27040": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "storage": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27041": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "guidance": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "assuring": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "suitability": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "adequacy": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "investigative": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27042": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "interpretation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27043": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "investigation": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "principles": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "processes": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "27799": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "informatics": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "using": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "ibm": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sas": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "logic": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "sil": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "mil": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "c": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "security": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "fisma": {
+    "domain": "Data Science/Analytics",
+    "category": "BIG DATA PLATFORMS"
+  },
+  "artificial": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "intelligence": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "reinforcement": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "rl": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hidden": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "hmm": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "viterbi": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "baum": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  },
+  "welch": {
+    "domain": "Data Science/Analytics",
+    "category": "ADDITIONAL ML CONCEPTS"
+  }
+}

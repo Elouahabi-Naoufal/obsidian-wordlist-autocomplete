@@ -1,0 +1,2298 @@
+{
+  "help": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "desk": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "service": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "it": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "support": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "technical": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "customer": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "user": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "end": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "desktop": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "remote": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "on": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "site": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "phone": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "email": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "chat": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "ticket": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "system": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "ticketing": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "incident": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "management": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "problem": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "change": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "request": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "knowledge": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "asset": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "configuration": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "level": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "agreement": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "sla": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "objective": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "slo": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "key": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "performance": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "indicator": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "kpi": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "first": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "call": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "resolution": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "fcr": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "mean": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "time": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "to": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "mttr": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "satisfaction": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "csat": {
+    "domain": "IT Support/Help Desk",
+    "category": "HELP DESK FUNDAMENTALS"
+  },
+  "net": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "promoter": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "score": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "nps": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "software": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "itsm": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "servicenow": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "jira": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "freshservice": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "zendesk": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "kayako": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "helpscout": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "intercom": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "zoho": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "salesforce": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "cloud": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "microsoft": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "dynamics": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "365": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "oracle": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "bmc": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "remedy": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "cherwell": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "manageengine": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "servicedesk": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "plus": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "spiceworks": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "osticket": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "open": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "source": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "otrs": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "hesk": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "uvdesk": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "glpi": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "lansweeper": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "network": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "discovery": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "tool": {
+    "domain": "IT Support/Help Desk",
+    "category": "TICKETING SYSTEMS"
+  },
+  "troubleshooting": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "methodology": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "solving": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "root": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "cause": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "analysis": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "systematic": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "approach": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "divide": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "and": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "conquer": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "top": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "down": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "bottom": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "up": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "follow": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "the": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "path": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "swap": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "components": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "compare": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "configurations": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "isolate": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "reproduce": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "issue": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "gather": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "information": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "identify": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "symptoms": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "determine": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "scope": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "establish": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "theory": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "test": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "plan": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "of": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "action": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "implement": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "solution": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "verify": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "functionality": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "document": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "findings": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "lessons": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "learned": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "base": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "update": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "preventive": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "measures": {
+    "domain": "IT Support/Help Desk",
+    "category": "TROUBLESHOOTING METHODOLOGIES"
+  },
+  "continuous": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "improvement": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "hardware": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "computer": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "laptop": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "server": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "motherboard": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "issues": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "cpu": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "processor": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "memory": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "ram": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "hard": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "drive": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "solid": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "state": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "ssd": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "graphics": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "card": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "gpu": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "power": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "supply": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "psu": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "cooling": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "fan": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "overheating": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "blue": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "screen": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "death": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "bsod": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "kernel": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "panic": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "diagnostics": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "stress": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "burn": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "in": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "post": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "self": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "bios": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "setup": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "uefi": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "firmware": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "updates": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "driver": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "compatibility": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "component": {
+    "domain": "IT Support/Help Desk",
+    "category": "HARDWARE TROUBLESHOOTING"
+  },
+  "replacement": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "warranty": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "operating": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "windows": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "macos": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "linux": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "application": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "installation": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "slow": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "freezing": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "crashing": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "startup": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "boot": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "login": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "file": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "corruption": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "registry": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "dll": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "missing": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "files": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "permission": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "virus": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "malware": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "antivirus": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "anti": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "restore": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "safe": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "mode": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "clean": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "event": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "viewer": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "logs": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "error": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "messages": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "diagnostic": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "tools": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "checker": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "sfc": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "disk": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "check": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "chkdsk": {
+    "domain": "IT Support/Help Desk",
+    "category": "SOFTWARE TROUBLESHOOTING"
+  },
+  "monitor": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "connectivity": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "internet": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "connection": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "wifi": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "wireless": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "ethernet": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "wired": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "adapter": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "ip": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "address": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "dns": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "dhcp": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "firewall": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "router": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "switch": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "modem": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "cable": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "tcp": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "ping": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "command": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "traceroute": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "tracert": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "nslookup": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "ipconfig": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "ifconfig": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "netstat": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "arp": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "reset": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "winsock": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "flush": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "troubleshooter": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "monitoring": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "wireshark": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "packet": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "capture": {
+    "domain": "IT Support/Help Desk",
+    "category": "NETWORK TROUBLESHOOTING"
+  },
+  "mobile": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "device": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "smartphone": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "tablet": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "ios": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "iphone": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "ipad": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "android": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "blackberry": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "mdm": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "mam": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "byod": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "bring": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "your": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "own": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "corporate": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "owned": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "personally": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "enabled": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "cope": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "security": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "app": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "battery": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "storage": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "sync": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "vpn": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "backup": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "factory": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "store": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "google": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "play": {
+    "domain": "IT Support/Help Desk",
+    "category": "MOBILE DEVICE SUPPORT"
+  },
+  "printer": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "inkjet": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "laser": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "multifunction": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "mfp": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "all": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "one": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "usb": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "parallel": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "print": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "spooler": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "paper": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "jam": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "quality": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "offline": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "queue": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "sharing": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "maintenance": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "toner": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "ink": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "drum": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "fuser": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "kit": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "cleaning": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "calibration": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "alignment": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "duplex": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "printing": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "color": {
+    "domain": "IT Support/Help Desk",
+    "category": "PRINTER SUPPORT"
+  },
+  "outlook": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "express": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "mail": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "apple": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "thunderbird": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "gmail": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "yahoo": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "hotmail": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "exchange": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "office": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "workspace": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "imap": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "pop3": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "smtp": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "client": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "sending": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "receiving": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "attachment": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "calendar": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "contacts": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "book": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "spam": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "phishing": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "encryption": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "digital": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "signatures": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "archiving": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "pst": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "ost": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "mailbox": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "migration": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "autoresponder": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "out": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "forwarding": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "rules": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "filters": {
+    "domain": "IT Support/Help Desk",
+    "category": "EMAIL SUPPORT"
+  },
+  "assistance": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "access": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "teamviewer": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "anydesk": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "chrome": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "rdp": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "vnc": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "virtual": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "computing": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "logmein": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "gotomypc": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "bomgar": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "beyondtrust": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "connectwise": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "control": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "splashtop": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "dameware": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "utilities": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "ammyy": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "admin": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "ultraviewer": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "unattended": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "attended": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "transfer": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "voice": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "video": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "session": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "recording": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "wake": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "lan": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "wol": {
+    "domain": "IT Support/Help Desk",
+    "category": "REMOTE SUPPORT"
+  },
+  "training": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "literacy": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "productivity": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "safety": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "cybersecurity": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "awareness": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "password": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "social": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "engineering": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "data": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "protection": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "privacy": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "compliance": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "hands": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "tutorials": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "documentation": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "guides": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "quick": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "reference": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "materials": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "sessions": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "workshops": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "webinars": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "e": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "learning": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "online": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "certification": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "skills": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "assessment": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "evaluation": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "feedback": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "collection": {
+    "domain": "IT Support/Help Desk",
+    "category": "USER TRAINING"
+  },
+  "license": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "inventory": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "tracking": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "lifecycle": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "procurement": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "deployment": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "retirement": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "disposal": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "register": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "database": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "barcode": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "scanning": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "rfid": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "tagging": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "serial": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "number": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "contracts": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "depreciation": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "cost": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "vendor": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "supplier": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "purchase": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "orders": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "invoicing": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "budget": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "audit": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "trails": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "reporting": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "dashboards": {
+    "domain": "IT Support/Help Desk",
+    "category": "ASSET MANAGEMENT"
+  },
+  "endpoint": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "intrusion": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "detection": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "vulnerability": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "patch": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "response": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "removal": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "ransomware": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "recovery": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "breach": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "forensic": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "simulation": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "policies": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "procedures": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "account": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "multi": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "factor": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "authentication": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "mfa": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "single": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "sign": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "sso": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "identity": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "privilege": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "disaster": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "business": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "continuity": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "risk": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "log": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "threat": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "intelligence": {
+    "domain": "IT Support/Help Desk",
+    "category": "SECURITY SUPPORT"
+  },
+  "optimization": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "tuning": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "temporary": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "cleanup": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "defragmentation": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "defrag": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "browser": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "cache": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "cookie": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "history": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "scan": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "scheduled": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "automatic": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "upgrades": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "upgrade": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "resource": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "task": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "manager": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "activity": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "counters": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "benchmarking": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "testing": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "thermal": {
+    "domain": "IT Support/Help Desk",
+    "category": "PERFORMANCE OPTIMIZATION"
+  },
+  "incremental": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "differential": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "full": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "local": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "automated": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "verification": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "point": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "rpo": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "rto": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "tape": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "nas": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "san": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "offsite": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "rotation": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "retention": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "compression": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "alerts": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "version": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "versioning": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "shadow": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "copies": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "points": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "image": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "bare": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "metal": {
+    "domain": "IT Support/Help Desk",
+    "category": "BACKUP & RECOVERY"
+  },
+  "process": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "procedure": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "how": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "step": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "by": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "instructions": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "articles": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "faq": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "frequently": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "asked": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "questions": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "reports": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "requests": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "work": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "standard": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "sop": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "best": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "practices": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "case": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "studies": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "manuals": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "administrator": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "escalation": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "contact": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "lists": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "diagrams": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "inventories": {
+    "domain": "IT Support/Help Desk",
+    "category": "DOCUMENTATION"
+  },
+  "assurance": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "qa": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "qc": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "metrics": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "rate": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "surveys": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "effort": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "ces": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "agreements": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "indicators": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "dashboard": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "trend": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "peer": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "review": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "audits": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "iso": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "20000": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "itil": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "development": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "coaching": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "mentoring": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "team": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "meetings": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  },
+  "retrospectives": {
+    "domain": "IT Support/Help Desk",
+    "category": "QUALITY ASSURANCE"
+  }
+}
