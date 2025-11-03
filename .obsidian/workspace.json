@@ -171,17 +171,17 @@
   },
   "active": "1d2cea67ef6af1b8",
   "lastOpenFiles": [
+    "IT_to_json/filtered_1000.json",
+    "filtered_1000.json",
+    "filtered_1000.txt",
+    "filter_words.py",
+    "unique_1000.txt",
+    "unique_words.py",
+    "1000.txt",
+    "IT/english_language.txt",
+    "english.json",
     "IT_to_json/statistics.json",
     "IT_to_json/all_it_domains.json",
-    "IT_to_json/quality_assurance.json",
-    "IT_to_json/it_support_helpdesk.json",
-    "IT_to_json/mobile_development.json",
-    "IT_to_json/web_development.json",
-    "IT_to_json/system_administration.json",
-    "IT_to_json/devops.json",
-    "IT_to_json/database_management.json",
-    "IT_to_json/network_administration.json",
-    "IT_to_json/cloud_computing.json",
     "Welcome.md"
   ]
 }

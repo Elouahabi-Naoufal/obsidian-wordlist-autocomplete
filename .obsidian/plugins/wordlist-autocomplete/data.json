@@ -3,107 +3,97 @@
   "dictionaryFolder": "IT_to_json",
   "enabledFiles": [
     {
-      "path": "IT_to_json/software_development.json",
+      "path": "IT_to_json/web_development.json",
       "enabled": true,
       "order": 0,
-      "categoryOrder": {
-        "FRAMEWORKS & LIBRARIES": 0,
-        "PROGRAMMING CONCEPTS": 1,
-        "ADVANCED CONCEPTS": 2,
-        "CODE QUALITY": 3,
-        "CONTAINERIZATION & ORCHESTRATION": 4,
-        "CLOUD PLATFORMS": 5,
-        "CDN & PERFORMANCE": 6,
-        "MONITORING & OBSERVABILITY": 7,
-        "COMMUNICATION & COLLABORATION": 8,
-        "DESIGN & PROTOTYPING": 9,
-        "TESTING TOOLS": 10,
-        "DESIGN PATTERNS": 11,
-        "PROGRAMMING LANGUAGES": 12,
-        "DATABASES": 13,
-        "DEVELOPMENT TOOLS": 14
-      }
-    },
-    {
-      "path": "IT_to_json/statistics.json",
-      "enabled": false,
-      "order": 1,
-      "categoryOrder": {}
-    },
-    {
-      "path": "IT_to_json/all_it_domains.json",
-      "enabled": false,
-      "order": 2,
-      "categoryOrder": {}
-    },
-    {
-      "path": "IT_to_json/quality_assurance.json",
-      "enabled": false,
-      "order": 3,
-      "categoryOrder": {}
-    },
-    {
-      "path": "IT_to_json/it_support_helpdesk.json",
-      "enabled": false,
-      "order": 4,
-      "categoryOrder": {}
-    },
-    {
-      "path": "IT_to_json/mobile_development.json",
-      "enabled": false,
-      "order": 5,
-      "categoryOrder": {}
-    },
-    {
-      "path": "IT_to_json/web_development.json",
-      "enabled": false,
-      "order": 6,
       "categoryOrder": {}
     },
     {
       "path": "IT_to_json/system_administration.json",
-      "enabled": false,
-      "order": 7,
+      "enabled": true,
+      "order": 1,
       "categoryOrder": {}
     },
     {
-      "path": "IT_to_json/devops.json",
-      "enabled": false,
-      "order": 8,
+      "path": "IT_to_json/statistics.json",
+      "enabled": true,
+      "order": 2,
       "categoryOrder": {}
     },
     {
-      "path": "IT_to_json/database_management.json",
-      "enabled": false,
-      "order": 9,
+      "path": "IT_to_json/software_development.json",
+      "enabled": true,
+      "order": 3,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/quality_assurance.json",
+      "enabled": true,
+      "order": 4,
       "categoryOrder": {}
     },
     {
       "path": "IT_to_json/network_administration.json",
-      "enabled": false,
+      "enabled": true,
+      "order": 5,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/mobile_development.json",
+      "enabled": true,
+      "order": 6,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/it_support_helpdesk.json",
+      "enabled": true,
+      "order": 7,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/filtered_1000.json",
+      "enabled": true,
+      "order": 8,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/devops.json",
+      "enabled": true,
+      "order": 9,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/database_management.json",
+      "enabled": true,
       "order": 10,
       "categoryOrder": {}
     },
     {
-      "path": "IT_to_json/cloud_computing.json",
-      "enabled": false,
+      "path": "IT_to_json/data_science_analytics.json",
+      "enabled": true,
       "order": 11,
       "categoryOrder": {}
     },
     {
-      "path": "IT_to_json/data_science_analytics.json",
-      "enabled": false,
+      "path": "IT_to_json/cybersecurity.json",
+      "enabled": true,
       "order": 12,
       "categoryOrder": {}
     },
     {
-      "path": "IT_to_json/cybersecurity.json",
-      "enabled": false,
+      "path": "IT_to_json/cloud_computing.json",
+      "enabled": true,
       "order": 13,
+      "categoryOrder": {}
+    },
+    {
+      "path": "IT_to_json/all_it_domains.json",
+      "enabled": true,
+      "order": 14,
       "categoryOrder": {}
     }
   ],
-  "globalOrder": "category",
+  "globalOrder": "file",
   "enableShorthand": true,
   "preserveCase": true,
   "selectedWordlists": [

@@ -125,7 +125,12 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
         return matchOrder[a.match] - matchOrder[b.match];
       }
       
-      // Secondary: global order
+      // Secondary: word length (shortest first)
+      if (a.word.length !== b.word.length) {
+        return a.word.length - b.word.length;
+      }
+      
+      // Tertiary: global order
       if (globalOrder === 'file') {
         if (a.fileOrder !== b.fileOrder) return a.fileOrder - b.fileOrder;
       } else if (globalOrder === 'category') {
@@ -134,7 +139,7 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
         if (a.frequency !== b.frequency) return b.frequency - a.frequency;
       }
       
-      // Tertiary: alphabetical
+      // Quaternary: alphabetical
       return a.word.localeCompare(b.word);
     });
   }
@@ -587,6 +592,22 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     if (!this.plugin.settings.dictionaryFolder) return;
     
     containerEl.createEl("h3", { text: "Dictionary Files" });
+    
+    new import_obsidian.Setting(containerEl)
+      .setName("Enable all files")
+      .setDesc("Toggle all dictionary files on/off")
+      .addButton(btn => btn.setButtonText("Enable All").onClick(async () => {
+        this.plugin.settings.enabledFiles.forEach(file => file.enabled = true);
+        await this.plugin.saveSettings();
+        await this.plugin.reloadWordlists();
+        this.display();
+      }))
+      .addButton(btn => btn.setButtonText("Disable All").onClick(async () => {
+        this.plugin.settings.enabledFiles.forEach(file => file.enabled = false);
+        await this.plugin.saveSettings();
+        await this.plugin.reloadWordlists();
+        this.display();
+      }));
     
     const fileListDiv = containerEl.createDiv({ cls: "file-list" });
     
