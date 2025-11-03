@@ -31,20 +31,15 @@ var import_obsidian = require("obsidian");
 var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
-    console.log('WordlistSuggest constructor called');
     this.wordData = new Map();
     this.plugin = plugin;
     this.loadWordlists();
     
-    // Override the scope's keydown handler
+    // Override the scope's keydown handler for space key
     this.scope.register([], ' ', (evt) => {
-      console.log('Space key intercepted!');
       if (this.plugin.settings.enableSpaceAccept && this.context) {
-        console.log('Accepting with space, suggestions:', this.currentSuggestions?.length);
         const selected = this.currentSuggestions?.[this.selectedItem || 0];
-        console.log('Selected suggestion:', selected);
         if (selected) {
-          console.log('Calling selectSuggestion');
           this.selectSuggestion(selected, evt);
           this.close();
           evt.preventDefault();
@@ -105,7 +100,6 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     return null;
   }
   getSuggestions(context) {
-    console.log('getSuggestions called with query:', context.query);
     const query = context.query.toLowerCase();
     const suggestions = [];
     const shorthandQuery = this.shorthand(query);
@@ -126,7 +120,6 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     }
     
     const result = this.rankSuggestions(suggestions).slice(0, 10);
-    console.log('Returning suggestions:', result.length);
     this.currentSuggestions = result; // Store suggestions for space key handler
     return result;
   }
@@ -175,7 +168,6 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     meta.createEl('span', { text: suggestion.category, cls: 'category' });
   }
   selectSuggestion(suggestion, evt) {
-    console.log('selectSuggestion called with:', suggestion.word, 'Event key:', evt?.key);
     const { context } = this;
     if (context) {
       const editor = context.editor;
@@ -197,7 +189,6 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   }
   
   onChooseSuggestion(suggestion, evt) {
-    console.log('onChooseSuggestion called with:', suggestion, 'Event:', evt.type, 'Key:', evt.key);
     this.selectSuggestion(suggestion, evt);
   }
 };
