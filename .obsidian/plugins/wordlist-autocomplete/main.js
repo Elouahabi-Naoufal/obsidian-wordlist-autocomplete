@@ -31,9 +31,28 @@ var import_obsidian = require("obsidian");
 var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
+    console.log('WordlistSuggest constructor called');
     this.wordData = new Map();
     this.plugin = plugin;
     this.loadWordlists();
+    
+    // Override the scope's keydown handler
+    this.scope.register([], ' ', (evt) => {
+      console.log('Space key intercepted!');
+      if (this.plugin.settings.enableSpaceAccept && this.context) {
+        console.log('Accepting with space, suggestions:', this.currentSuggestions?.length);
+        const selected = this.currentSuggestions?.[this.selectedItem || 0];
+        console.log('Selected suggestion:', selected);
+        if (selected) {
+          console.log('Calling selectSuggestion');
+          this.selectSuggestion(selected, evt);
+          this.close();
+          evt.preventDefault();
+          return false;
+        }
+      }
+      return true;
+    });
   }
   shorthand(word) {
     if (!word) return word;
@@ -86,6 +105,7 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     return null;
   }
   getSuggestions(context) {
+    console.log('getSuggestions called with query:', context.query);
     const query = context.query.toLowerCase();
     const suggestions = [];
     const shorthandQuery = this.shorthand(query);
@@ -105,7 +125,10 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
       }
     }
     
-    return this.rankSuggestions(suggestions).slice(0, 10);
+    const result = this.rankSuggestions(suggestions).slice(0, 10);
+    console.log('Returning suggestions:', result.length);
+    this.currentSuggestions = result; // Store suggestions for space key handler
+    return result;
   }
   
   getMatchType(word, query, shorthandQuery) {
@@ -152,6 +175,7 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     meta.createEl('span', { text: suggestion.category, cls: 'category' });
   }
   selectSuggestion(suggestion, evt) {
+    console.log('selectSuggestion called with:', suggestion.word, 'Event key:', evt?.key);
     const { context } = this;
     if (context) {
       const editor = context.editor;
@@ -171,6 +195,11 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
       editor.replaceRange(insertWord + " ", context.start, context.end);
     }
   }
+  
+  onChooseSuggestion(suggestion, evt) {
+    console.log('onChooseSuggestion called with:', suggestion, 'Event:', evt.type, 'Key:', evt.key);
+    this.selectSuggestion(suggestion, evt);
+  }
 };
 var DEFAULT_SETTINGS = {
   minLetters: 3,
@@ -178,7 +207,8 @@ var DEFAULT_SETTINGS = {
   enabledFiles: [],
   globalOrder: 'file',
   enableShorthand: true,
-  preserveCase: false
+  preserveCase: false,
+  enableSpaceAccept: false
 };
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
@@ -559,6 +589,11 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     
     new import_obsidian.Setting(containerEl).setName("Preserve case").setDesc("Match input case in suggestions").addToggle((toggle) => toggle.setValue(this.plugin.settings.preserveCase).onChange(async (value) => {
       this.plugin.settings.preserveCase = value;
+      await this.plugin.saveSettings();
+    }));
+    
+    new import_obsidian.Setting(containerEl).setName("Enable Space to accept").setDesc("Use Space key to accept suggestions (in addition to Enter)").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableSpaceAccept).onChange(async (value) => {
+      this.plugin.settings.enableSpaceAccept = value;
       await this.plugin.saveSettings();
     }));
     
