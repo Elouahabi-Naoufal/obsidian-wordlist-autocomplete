@@ -4,8 +4,8 @@
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Autocomplete suggestions from JSON wordlist files with domain and category filtering",
-	"author": "Elouahabi Naoufal",
-	"authorUrl": "",
-	"fundingUrl": "",
+	"author": "Naoufal Elouahabi",
+	"authorUrl": "https://github.com/Elouahabi-Naoufal",
+	"fundingUrl": "https://paypal.me/NaoufalElouahabi",
 	"isDesktopOnly": false
 }
