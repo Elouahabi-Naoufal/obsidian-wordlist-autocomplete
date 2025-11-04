@@ -96,7 +96,8 @@
   "globalOrder": "file",
   "enableShorthand": true,
   "preserveCase": true,
-  "enableSpaceAccept": true,
+  "enableSpaceAccept": false,
+  "enablePersonalizedSuggestions": true,
   "enableTabAccept": true,
   "selectedWordlists": [
     "mega_wordlist.txt",

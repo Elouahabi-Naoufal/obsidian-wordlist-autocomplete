@@ -1,1 +1,1 @@
-stuff to thnk
+are you good things are good right now mongodb is the best database in the world of course 

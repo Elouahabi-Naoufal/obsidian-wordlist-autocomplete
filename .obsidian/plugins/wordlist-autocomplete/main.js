@@ -33,7 +33,9 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     super(plugin.app);
     this.wordData = new Map();
     this.plugin = plugin;
+    this.userChoices = {};
     this.loadWordlists();
+    this.loadPersonalizedData();
     
     // Override the scope's keydown handler for space key
     this.scope.register([], ' ', (evt) => {
@@ -119,7 +121,7 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
       }
     }
     
-    const result = this.rankSuggestions(suggestions).slice(0, 10);
+    const result = this.rankSuggestions(suggestions, context, context?.editor).slice(0, 10);
     this.currentSuggestions = result; // Store suggestions for space key handler
     return result;
   }
@@ -131,22 +133,42 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     return null;
   }
   
-  rankSuggestions(suggestions) {
+  rankSuggestions(suggestions, context, editor) {
     const globalOrder = this.plugin.settings.globalOrder;
+    const beforeWord = context ? this.getWordBefore(context, editor) : null;
+    const afterWord = context ? this.getWordAfter(context, editor) : null;
+    const query = context ? context.query : '';
+    
+    // Add personal scores
+    suggestions.forEach(suggestion => {
+      suggestion.personalScore = this.getPersonalScore(query, suggestion.word, beforeWord, afterWord);
+    });
     
     return suggestions.sort((a, b) => {
-      // Primary: match type
+      // Primary: personal score (overrides everything when > 0)
+      if (a.personalScore > 0 || b.personalScore > 0) {
+        if (a.personalScore !== b.personalScore) {
+          return b.personalScore - a.personalScore;
+        }
+      }
+      
+      // Secondary: match type
       const matchOrder = { prefix: 0, shorthand: 1, contains: 2 };
       if (a.match !== b.match) {
         return matchOrder[a.match] - matchOrder[b.match];
       }
       
-      // Secondary: word length (shortest first)
+      // Tertiary: default order from settings
+      if (globalOrder === 'alphabetical') {
+        return a.word.localeCompare(b.word);
+      }
+      
+      // For non-alphabetical orders, use word length first
       if (a.word.length !== b.word.length) {
         return a.word.length - b.word.length;
       }
       
-      // Tertiary: global order
+      // Then apply the selected global order
       if (globalOrder === 'file') {
         if (a.fileOrder !== b.fileOrder) return a.fileOrder - b.fileOrder;
       } else if (globalOrder === 'category') {
@@ -155,9 +177,25 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
         if (a.frequency !== b.frequency) return b.frequency - a.frequency;
       }
       
-      // Quaternary: alphabetical
+      // Final: alphabetical
       return a.word.localeCompare(b.word);
     });
+  }
+  
+  getPersonalScore(query, word, beforeWord, afterWord) {
+    if (!this.plugin.settings.enablePersonalizedSuggestions) return 0;
+    
+    const choice = this.userChoices[word];
+    if (!choice) return 0;
+    
+    let score = choice.count || 0;
+    
+    // Heavy boost for before word context (most important)
+    if (beforeWord && choice.before && choice.before.includes(beforeWord)) score *= 5;
+    // Light boost for after word context
+    if (afterWord && choice.after && choice.after.includes(afterWord)) score *= 1.5;
+    
+    return score;
   }
   renderSuggestion(suggestion, el) {
     const container = el.createEl('div', { cls: 'wordlist-suggestion' });
@@ -172,6 +210,9 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     if (context) {
       const editor = context.editor;
       let insertWord = suggestion.word;
+      
+      // Record user choice for learning
+      this.recordChoice(context.query, suggestion.word, context, editor);
       
       if (this.plugin.settings.preserveCase) {
         const query = context.query;
@@ -188,6 +229,64 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     }
   }
   
+  recordChoice(query, selectedWord, context, editor) {
+    if (!this.plugin.settings.enablePersonalizedSuggestions) return;
+    
+    const beforeWord = this.getWordBefore(context, editor);
+    const afterWord = this.getWordAfter(context, editor);
+    
+    if (!this.userChoices[selectedWord]) {
+      this.userChoices[selectedWord] = { count: 0, before: [], after: [] };
+    }
+    
+    this.userChoices[selectedWord].count++;
+    
+    // Store context words
+    if (beforeWord && !this.userChoices[selectedWord].before.includes(beforeWord)) {
+      this.userChoices[selectedWord].before.push(beforeWord);
+    }
+    if (afterWord && !this.userChoices[selectedWord].after.includes(afterWord)) {
+      this.userChoices[selectedWord].after.push(afterWord);
+    }
+    
+    this.savePersonalizedData();
+  }
+  
+  getWordBefore(context, editor) {
+    const line = editor.getLine(context.start.line);
+    const beforeText = line.substring(0, context.start.ch);
+    const match = beforeText.match(/\b(\w+)\s*$/); 
+    return match ? match[1].toLowerCase() : null;
+  }
+  
+  getWordAfter(context, editor) {
+    const line = editor.getLine(context.end.line);
+    const afterText = line.substring(context.end.ch);
+    const match = afterText.match(/^\s*(\w+)\b/);
+    return match ? match[1].toLowerCase() : null;
+  }
+  
+  async loadPersonalizedData() {
+    try {
+      const file = this.plugin.app.vault.getAbstractFileByPath('.obsidian/plugins/wordlist-autocomplete/personalized-suggestions.json');
+      if (file instanceof import_obsidian.TFile) {
+        const content = await this.plugin.app.vault.read(file);
+        this.userChoices = JSON.parse(content);
+      }
+    } catch (error) {
+      this.userChoices = {};
+    }
+  }
+  
+  async savePersonalizedData() {
+    try {
+      const filePath = '.obsidian/plugins/wordlist-autocomplete/personalized-suggestions.json';
+      await this.plugin.app.vault.adapter.write(filePath, JSON.stringify(this.userChoices, null, 2));
+    } catch (error) {
+      console.error('Failed to save personalized data:', error);
+    }
+  }
+  
   onChooseSuggestion(suggestion, evt) {
     this.selectSuggestion(suggestion, evt);
   }
@@ -199,7 +298,8 @@ var DEFAULT_SETTINGS = {
   globalOrder: 'file',
   enableShorthand: true,
   preserveCase: false,
-  enableSpaceAccept: false
+  enableSpaceAccept: false,
+  enablePersonalizedSuggestions: false
 };
 var WordlistAutocompletePlugin = class extends import_obsidian.Plugin {
   async onload() {
@@ -585,6 +685,11 @@ var WordlistSettingTab = class extends import_obsidian.PluginSettingTab {
     
     new import_obsidian.Setting(containerEl).setName("Enable Space to accept").setDesc("Use Space key to accept suggestions (in addition to Enter)").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableSpaceAccept).onChange(async (value) => {
       this.plugin.settings.enableSpaceAccept = value;
+      await this.plugin.saveSettings();
+    }));
+    
+    new import_obsidian.Setting(containerEl).setName("Enable personalized suggestions").setDesc("Learn from your word choices and prioritize based on context").addToggle((toggle) => toggle.setValue(this.plugin.settings.enablePersonalizedSuggestions).onChange(async (value) => {
+      this.plugin.settings.enablePersonalizedSuggestions = value;
       await this.plugin.saveSettings();
     }));
     
