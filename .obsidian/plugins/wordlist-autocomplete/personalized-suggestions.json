@@ -1,71 +1,13 @@
 {
-  "good": {
+  "sport": {
     "count": 1,
-    "before": [
-      "you"
-    ],
+    "before": [],
     "after": []
   },
-  "thing": {
-    "count": 1,
+  "separate": {
+    "count": 2,
     "before": [
-      "good"
-    ],
-    "after": []
-  },
-  "things": {
-    "count": 1,
-    "before": [
-      "good"
-    ],
-    "after": []
-  },
-  "right": {
-    "count": 1,
-    "before": [
-      "good"
-    ],
-    "after": []
-  },
-  "mongodb": {
-    "count": 1,
-    "before": [
-      "now"
-    ],
-    "after": []
-  },
-  "best": {
-    "count": 1,
-    "before": [
-      "the"
-    ],
-    "after": []
-  },
-  "database": {
-    "count": 1,
-    "before": [
-      "best"
-    ],
-    "after": []
-  },
-  "world": {
-    "count": 1,
-    "before": [
-      "the"
-    ],
-    "after": []
-  },
-  "court": {
-    "count": 1,
-    "before": [
-      "of"
-    ],
-    "after": []
-  },
-  "course": {
-    "count": 1,
-    "before": [
-      "of"
+      "sport"
     ],
     "after": []
   }

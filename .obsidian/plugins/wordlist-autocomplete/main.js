@@ -128,7 +128,7 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
   
   getMatchType(word, query, shorthandQuery) {
     if (word.startsWith(query)) return 'prefix';
-    if (this.plugin.settings.enableShorthand && this.shorthand(word).toLowerCase().startsWith(shorthandQuery)) return 'shorthand';
+    if (this.plugin.settings.enableShorthand && this.shorthand(word).toLowerCase() === shorthandQuery) return 'shorthand';
     if (word.includes(query)) return 'contains';
     return null;
   }
@@ -145,17 +145,15 @@ var WordlistSuggest = class extends import_obsidian.EditorSuggest {
     });
     
     return suggestions.sort((a, b) => {
-      // Primary: personal score (overrides everything when > 0)
-      if (a.personalScore > 0 || b.personalScore > 0) {
-        if (a.personalScore !== b.personalScore) {
-          return b.personalScore - a.personalScore;
-        }
-      }
-      
-      // Secondary: match type
+      // Primary: match type
       const matchOrder = { prefix: 0, shorthand: 1, contains: 2 };
       if (a.match !== b.match) {
         return matchOrder[a.match] - matchOrder[b.match];
+      }
+      
+      // Secondary: personal score (within same match type)
+      if (a.personalScore !== b.personalScore) {
+        return b.personalScore - a.personalScore;
       }
       
       // Tertiary: default order from settings
