@@ -1,4 +1,4 @@
-# Wordlist Autocomplete Plugin
+# Wordlist Autocomplete
 
 An Obsidian plugin that provides intelligent autocomplete suggestions from JSON wordlist files with domain and category metadata.
 
