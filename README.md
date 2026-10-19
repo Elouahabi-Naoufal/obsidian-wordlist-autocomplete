@@ -1,26 +1,12 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 
-
-
-
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 
 <!-- PROJECT TITLE BLOCK -->
 <br />
@@ -33,7 +19,7 @@
     An Obsidian plugin that suggests words from your own JSON wordlists, ranked by match quality
     and by what you have picked before.
     <br />
-    <a href="https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete"><strong>Read the source »</strong></a>
+    <a href="https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete"><strong>Explore the source »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete/issues">Report Bug</a>
@@ -41,9 +27,6 @@
     <a href="https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete/issues">Request Feature</a>
   </p>
 </div>
-
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -71,9 +54,6 @@
   </ol>
 </details>
 
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -82,10 +62,10 @@ folder of JSON files, enable the ones you want, and every word you type brings u
 them at once — each labelled with the domain and category carried in the JSON.
 
 It is deliberately generic. There is no bundled vocabulary and no bundled spelling dictionary: `data.json`
-in this repository is an empty `{}` seed, and everything after that is yours. That makes it useful for
-domain jargon, a house style guide, a personal glossary, or a controlled vocabulary for a project.
+is an empty `{}` seed, and everything after that is yours. That makes it useful for domain jargon, a house
+style guide, a personal glossary, or a controlled vocabulary for a project.
 
-How matching works, in the order the code applies it:
+Matching works in three tiers, in this order:
 
 | Match | Rule | Example |
 |-------|------|---------|
@@ -93,89 +73,77 @@ How matching works, in the order the code applies it:
 | `shorthand` | Word with its vowels stripped, after the first letter, equals your input | `orcl` → `Oracle` |
 | `contains` | Word contains your input anywhere | `base` → `Database` |
 
-Suggestions are capped at 10 per keystroke and sorted by match type first, so prefix hits always sit above
-`contains` hits. Within a match type the order comes from your settings, and every suggestion shows its
-`domain` and `category` chips so you can tell which wordlist a hit came from.
+Suggestions are capped at 10 per keystroke. Ordering is layered: match type first, then the personal
+score when learning is enabled, then shorter words, then your chosen global order, then alphabetical.
+Every suggestion shows its `domain` and `category` chips so you can tell which wordlist a hit came from.
 
-Beyond the suggestion popup, the plugin registers five commands that act on the whole file:
+Beyond the popup, the plugin registers five commands:
 
-* **Correct current file** — tokenizes the note, skips words already in the dictionary and words that look
-  like ordinary grammatical variations (`-s`, `-ed`, `-ing`, `-tion`, …), then matches what is left against
-  the wordlists by shorthand first and by Levenshtein distance ≤ 2 second. Candidates above 0.6 confidence
-  appear in a modal with checkboxes; accepted ones are rewritten.
+* **Correct current file** — tokenizes the note, skips exact dictionary matches and common grammatical
+  variations (`-s`, `-ed`, `-ing`, `-tion`, …), then tries shorthand matching and Levenshtein distance
+  ≤ 2. Candidates above 0.6 confidence appear in a modal with checkboxes; accepted ones are rewritten.
 * **Convert file to lowercase / uppercase**, **Capitalize first letter**, **Convert to sentence case** —
   whole-file text transforms.
 
-There is also optional personalization, off by default. When enabled, every accepted suggestion records the
-word, the word before it and the word after it. Later, a word you have picked before is boosted 5× when the
-preceding word matches and 1.5× when the following word matches. The history lives in
+Optional personalization is off by default. When enabled, every accepted suggestion records the word, the
+word before it and the word after it. A word you have picked before is boosted when the surrounding
+context matches. The history lives in
 `.obsidian/plugins/wordlist-autocomplete/personalized-suggestions.json`.
 
+Accepting a suggestion inserts the word **and a trailing space**; with **Preserve case** enabled, the
+inserted word follows the case style you were typing.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 * [![Obsidian][Obsidian.com]][Obsidian-url]
+* [![JavaScript][JavaScript.com]][JavaScript-url]
 * [![TypeScript][TypeScript.com]][TypeScript-url]
 * [![esbuild][esbuild.com]][esbuild-url]
-* [![JavaScript][JavaScript.com]][JavaScript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-* Obsidian 0.15.0 or later.
+* Obsidian 0.15.0 or newer.
 * At least one JSON wordlist in your vault (see [Usage](#usage)). There is no bundled wordlist.
-* Node.js 18+ and npm, only if you intend to build from source.
+* Node.js and npm only if you intend to work on the bundle.
 
 ### Installation
 
-**From the community plugin registry** — this plugin is listed in Obsidian's community plugins, so the
-normal path applies:
+**From a release**
 
-1. Open **Settings → Community plugins** and turn off Restricted mode if it is on.
-2. Browse the list, or search for **Wordlist Autocomplete**.
-3. Click **Install**, then **Enable**.
+1. Download `main.js`, `manifest.json` and `styles.css` from the latest GitHub release.
+2. Create `<vault>/.obsidian/plugins/wordlist-autocomplete/`.
+3. Copy the files into that folder.
+4. Reload Obsidian, then enable **Wordlist Autocomplete** under **Settings → Community plugins**.
 
-Obsidian downloads the released `main.js`, `manifest.json` and `styles.css` into
-`<vault>/.obsidian/plugins/wordlist-autocomplete/`.
-
-**Manual installation** — if you are testing a local build:
-
-1. Copy `main.js`, `manifest.json` and `styles.css` into
-   `<vault>/.obsidian/plugins/wordlist-autocomplete/` (create the folder if needed).
-2. Reload Obsidian, then enable the plugin under **Settings → Community plugins**.
-
-**Building from source** — note that this repository ships the esbuild bundle, not the TypeScript source:
+**From source**
 
 ```sh
 git clone https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete.git
 cd obsidian-wordlist-autocomplete
-npm install
-npm run build     # -> main.js
 ```
 
-`npm run build` expects `main.ts`, `esbuild.config.mjs` and `version-bump.mjs`, none of which are in the
-tree at the moment, so the build fails until those are restored. See the roadmap below.
+`main.js` is the shipped esbuild bundle and is what Obsidian loads. Copy it, `manifest.json` and
+`styles.css` into the plugin folder. The repository currently does **not** contain the esbuild config or
+version-bump script referenced by `package.json`, and `main.ts` is an older, much smaller prototype that
+uses a single `mega_wordlist.txt` file — it is not the source of the shipped `main.js`. Consequently
+`npm run build` will not reproduce the bundle until the original build files are restored.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 ### Wordlist format
 
-A wordlist is a flat JSON object. Keys are the words as you want them spelled in the note; values carry the
-metadata used for display and ranking:
+A wordlist is a flat JSON object. Keys are the words as you want them spelled in the note; values carry
+the metadata used for display and ranking:
 
 ```json
 {
@@ -197,8 +165,8 @@ metadata used for display and ranking:
 }
 ```
 
-Only `word` (the key) is required. Missing `frequency` defaults to `1`, and missing `domain`/`category`
-render as empty chips.
+Only the key is required. Missing `frequency` defaults to `1`, and missing `domain`/`category` render as
+empty chips.
 
 ### Getting started
 
@@ -207,7 +175,7 @@ render as empty chips.
 3. Open **Settings → Wordlist Autocomplete**, set **Dictionary folder** to that folder. The plugin scans
    every `.json` file in it and lists them, all disabled by default.
 4. Toggle on the files you want. Drag the handle on the left of a row to change its priority.
-5. Type three letters (or whatever your threshold is) in any note. Suggestions appear inline.
+5. Type the minimum number of letters in any note. Suggestions appear inline.
 
 ### Settings
 
@@ -224,39 +192,23 @@ render as empty chips.
 Per file you get an enable toggle and a **Category order** button that opens a modal for ranking the
 categories inside that particular wordlist. **Enable All** / **Disable All** sit above the list.
 
-### Ranking in practice
-
-The comparator is strictly layered, so changing the global order only matters once the earlier layers tie:
-
-1. Match type — `prefix`, then `shorthand`, then `contains`.
-2. Personal score, when personalization is on.
-3. Shorter word first.
-4. Your chosen global order.
-5. Alphabetical, as the final tiebreak.
-
-Accepting a suggestion inserts the word **and a trailing space**, so typing `orac` then Enter gives you
-`Oracle ` ready for the next word.
-
 ### Commands
-
-Run these from the command palette with a note open:
 
 | Command | Effect |
 |---------|--------|
-| Wordlist Autocomplete: Correct current file | Modal listing likely misspellings, apply selected fixes |
+| Wordlist Autocomplete: Correct current file | Modal listing likely misspellings; apply selected fixes |
 | Wordlist Autocomplete: Convert file to lowercase | Lowercase the whole note |
 | Wordlist Autocomplete: Convert file to uppercase | Uppercase the whole note |
 | Wordlist Autocomplete: Capitalize first letter | Sentence-cases the note |
 | Wordlist Autocomplete: Convert to sentence case | Sentence-cases the note |
 
-The correction pass is deliberately conservative: it skips exact matches, skips anything whose stem is in the
-dictionary under a common English suffix, and requires confidence above 0.6 before offering a change.
+The correction pass is deliberately conservative: it skips exact matches, skips anything whose stem is in
+the dictionary under a common suffix, and requires confidence above 0.6 before offering a change.
 
 ### Building a wordlist
 
-Any source works — an existing glossary, a `wordfreq` list, a glossary exported from a book. The compact
-format that is easiest to generate by hand or by asking a model for a list is `[frequency][word]` per line
-under `-CATEGORY-` headers:
+Any source works — an existing glossary, a frequency list, or a list exported from a book. One compact
+format that is easy to generate by hand is `[frequency][word]` per line under `-CATEGORY-` headers:
 
 ```
 -DATABASES-
@@ -301,50 +253,42 @@ Put the resulting file in your wordlist folder, go back to the settings tab, and
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-Shipping in 1.0.0:
+Working today:
 
 - [x] Editor suggestions from any number of enabled JSON wordlists
 - [x] Three-tier matching: prefix, vowel-stripped shorthand, contains
-- [x] Domain and category chips on every suggestion, drawn from the wordlist metadata
+- [x] Domain and category chips on every suggestion
 - [x] Configurable trigger length, shorthand toggle, case preservation, Space-to-accept
 - [x] Per-file enable, drag reordering and per-file category priority
 - [x] Optional personalization with preceding/following word context
 - [x] File-wide correction pass with a review modal
 - [x] Four file-wide case transformation commands
-- [x] Listed in the Obsidian community plugin registry, manifest version 1.0.0 / minAppVersion 0.15.0
 
-Known gaps in the current tree:
+Known gaps:
 
-- [ ] The TypeScript source is not published — only the esbuild output `main.js` is committed, and
-      `.gitignore` lists `main.js` while it is also shipped. `main.ts`, `esbuild.config.mjs` and
-      `version-bump.mjs` referenced by `package.json` are missing, so `npm run build` and `npm run version`
-      do not run.
-- [ ] The **Capitalize first letter** command calls the same sentence-case function as
-      **Convert to sentence case**, so it does not do what its name says.
-- [ ] Personalized data is written through `vault.adapter` to an absolute
-      `.obsidian/plugins/wordlist-autocomplete/` path, but `manifest.json` declares
-      `isDesktopOnly: false`. On mobile that write fails and personalization silently resets.
-- [ ] Accepted suggestions always append a trailing space; there is no setting to turn that off.
-- [ ] No tests and no sample wordlist larger than the empty `data.json`.
-
-See the [open issues](https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomplete/issues) for a full list of proposed features (and known issues).
+- [ ] The original build inputs are missing: `package.json` references `esbuild.config.mjs` and
+      `version-bump.mjs`, but neither is in the repository, so `npm run build` and `npm run version` fail
+- [ ] `main.ts` is a stale prototype and does not match the shipped `main.js`
+- [ ] **Capitalize first letter** calls the same sentence-case function as **Convert to sentence case**,
+      so it does not do what its name says
+- [ ] Personalized data is written through `vault.adapter` to an absolute `.obsidian/plugins/...` path,
+      while `manifest.json` declares `isDesktopOnly: false`; on mobile that write fails
+- [ ] Accepted suggestions always append a trailing space; there is no setting to turn that off
+- [ ] No tests and no sample wordlist larger than the empty `data.json`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create.
+Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You
+can also simply open an issue with the tag "enhancement". Don't forget to give the project a star!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -352,8 +296,9 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Releases are cut by bumping `manifest.json`, adding the entry to `versions.json`, tagging, and letting
-Obsidian pick up the attached `main.js`, `manifest.json` and `styles.css`.
+The most useful first contribution is restoring the missing build setup so `main.js` can be regenerated
+from TypeScript. Releases are cut by bumping `manifest.json`, adding the entry to `versions.json`, tagging,
+and attaching `main.js`, `manifest.json` and `styles.css` to the release.
 
 ### Top contributors:
 
@@ -363,16 +308,12 @@ Obsidian pick up the attached `main.js`, `manifest.json` and `styles.css`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -383,20 +324,15 @@ Project Link: [https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomple
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Obsidian](https://obsidian.md/) and the [sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+* [Obsidian](https://obsidian.md/) and the [Obsidian sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
 * [esbuild](https://esbuild.github.io/)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -414,9 +350,9 @@ Project Link: [https://github.com/Elouahabi-Naoufal/obsidian-wordlist-autocomple
 [linkedin-url]: https://www.linkedin.com/in/elouahabi-naoufal/
 [Obsidian.com]: https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white
 [Obsidian-url]: https://obsidian.md/
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [TypeScript.com]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [TypeScript-url]: https://www.typescriptlang.org/
 [esbuild.com]: https://img.shields.io/badge/esbuild-FFCF00?style=for-the-badge&logo=esbuild&logoColor=black
 [esbuild-url]: https://esbuild.github.io/
-[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
